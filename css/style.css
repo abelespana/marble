@@ -1,7 +1,13 @@
+body {
+   margin:0; 
+}  
+
 .wrapper{
     width: 480px;
     margin: 0 auto;
+    background-color:aquamarine;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 header{
     background: 
@@ -140,6 +146,12 @@ div.flechas > a{
 
 /*----------------------------*/
     
+=======
+/*Fin del código de todos*/
+
+/*Inicio del código de Mikel*/
+
+>>>>>>> abel
 .headerHome{
    width: 100%;
     float: left;
@@ -198,6 +210,7 @@ main > a > #mus{
 main > a > #cin{
     background-color: cornflowerblue;
 }
+<<<<<<< HEAD
 
 div#lit:hover > img{
     transform: rotateZ(360deg);
@@ -222,4 +235,80 @@ div#mus:hover > img{
 div#cin:hover > img{
     transform: rotate(-360deg);
     transition: 3s;
+}=======
+/*Fin del código de Mikel*/
+
+/*Código de Abel */
+
+#headerProfile {
+    width:100%;
+    float:left;
+    background-color:aquamarine;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-bottom-color:black;
+    margin-bottom:15px;
 }
+
+#headerProfile > img {
+    width:50%;
+    margin-left:120px;
+}
+
+#headerProfile > h1 {
+    text-align:center;
+    margin-bottom:30px;
+    margin-top:0px;
+
+}
+#profileContent {
+    background-color:yellow;
+    width:100%;
+    margin:0 auto;
+    float:left;
+    background-color:aquamarine;
+    border-style:solid;
+    border-width:1px;
+    border-color:black;
+}
+
+#profileTabSwitcher{
+    width:100%;
+    margin:0 auto;
+    float:left;
+    padding:0;
+    border-bottom: 1px solid black;
+    margin-bottom:25px;
+}
+
+#profileTabSwitcher li.notselected {
+    opacity:0.6 ;
+}
+
+ul li {
+    list-style-type:none;
+    width:33.1%;
+    float:left;
+    border-right-style:solid;
+    border-right-width:1px;
+    border-right-color:white;
+    background-color:grey;
+    text-align:center;
+    color:white;
+    height:30px;
+    line-height:30px;
+}
+
+ul > li > a {
+    text-decoration:none;
+    color:white;
+}
+
+#profileText {
+    padding:15px;
+}
+
+#profileText p {
+    margin-top:4px;
+}
+>>>>>>> abel
