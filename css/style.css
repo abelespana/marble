@@ -7,8 +7,7 @@ body {
     margin: 0 auto;
     background-color:aquamarine;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 header{
     background: 
 }
@@ -28,7 +27,6 @@ div.theme > h1{
 div.theme > img{
     max-width: 100%;
     margin-left: 50%; /*preguntar al profe*/
->>>>>>> 
 }
 
 .bloque{
@@ -145,13 +143,11 @@ div.flechas > a{
 }
 
 /*----------------------------*/
-    
-=======
+
 /*Fin del código de todos*/
 
 /*Inicio del código de Mikel*/
 
->>>>>>> abel
 .headerHome{
    width: 100%;
     float: left;
@@ -210,7 +206,6 @@ main > a > #mus{
 main > a > #cin{
     background-color: cornflowerblue;
 }
-<<<<<<< HEAD
 
 div#lit:hover > img{
     transform: rotateZ(360deg);
@@ -235,7 +230,8 @@ div#mus:hover > img{
 div#cin:hover > img{
     transform: rotate(-360deg);
     transition: 3s;
-}=======
+}
+
 /*Fin del código de Mikel*/
 
 /*Código de Abel */
@@ -311,4 +307,3 @@ ul > li > a {
 #profileText p {
     margin-top:4px;
 }
->>>>>>> abel
