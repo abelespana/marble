@@ -8,7 +8,7 @@ header{
 }
 footer{
     background: 
-=======
+}
 
 .theme{
     width: 100%;
@@ -22,7 +22,7 @@ div.theme > h1{
 div.theme > img{
     max-width: 100%;
     margin-left: 50%; /*preguntar al profe*/
->>>>>>> d2ff21455018ad3045d6f304b4162dc1dbb181bd
+>>>>>>> 
 }
 
 .bloque{
@@ -138,19 +138,8 @@ div.flechas > a{
 	margin-left: 15%;
 }
 
-.wrapper{
-    width: 480px;
-    margin: 0 auto;
-}
-header{
+/*----------------------------*/
     
-    background: 
-    
-}
-footer{
-    
-    background: 
-}
 .headerHome{
    width: 100%;
     float: left;
