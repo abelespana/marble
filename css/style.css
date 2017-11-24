@@ -11,6 +11,7 @@ footer{
     
     background: 
 }
+
 .headerHome{
    width: 100%;
     float: left;
@@ -27,8 +28,7 @@ footer{
 }
 .headerHome > #search{
     width: 75px;
-    margin-left: 202.5px;
-    
+    margin-left: 202.5px;   
 }
 
 main{
@@ -51,8 +51,7 @@ main > a > .cat > h1{
     color: black;  
 }
 main > a > #lit{
-    background-color: aquamarine;
-    
+    background-color: aquamarine; 
 }
 main > a > #the{
     background-color: pink;
@@ -72,25 +71,19 @@ main > a > #cin{
 
 div#lit:hover > img{
     transform: rotateZ(360deg);
-    transition: 3s;
 }
 div#the:hover > img{
     transform: rotateY(360deg);
-    transition: 3s;
 }
 div#pho:hover > img{
     transform: rotateX(360deg);
-    transition: 3s;
 }
 div#pai:hover > img{
     transform: scale(-1);
-    transition: 3s;
 }
 div#mus:hover > img{
-    transform: skew(180deg);
-    transition: 3s;
+    transform: skew(180deg); 
 }
 div#cin:hover > img{
-    transform: rotate(-360deg);
-    transition: 3s;
+    transform: rotate(-360deg); 
 }
