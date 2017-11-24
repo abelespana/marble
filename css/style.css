@@ -11,3 +11,59 @@ footer{
     
     background: 
 }
+.headerHome{
+   width: 100%;
+    float: left;
+}
+.headerHome > a > #logo{
+    width: 300px;
+    float: left;
+    margin-left: 90px;
+    
+}
+.headerHome > a > #user{
+    width: 75px;
+    float: right;
+}
+.headerHome > #search{
+    width: 75px;
+    margin-left: 202.5px;
+    
+}
+
+main{
+    width: 100%;
+    float: left;
+}
+main > a > .cat{
+    width: 50%;
+    float: left;
+}
+main > a > .cat > img{
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+main > a > .cat > h1{
+   text-align: center;
+    margin-left: 10px;
+    color: black;  
+}
+main > a > #lit{
+    background-color: aquamarine;
+}
+main > a > #the{
+    background-color: pink;
+}
+main > a > #pho{
+    background-color: orange;
+}
+main > a > #pai{
+    background-color: mediumpurple;
+}
+main > a > #mus{
+    background-color: forestgreen;
+}
+main > a > #cin{
+    background-color: cornflowerblue;
+}
