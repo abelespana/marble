@@ -2,6 +2,134 @@
     width: 480px;
     margin: 0 auto;
 }
+
+.theme{
+    width: 100%;
+    margin: 0 auto;
+}
+
+div.theme > h1{
+    text-align: center;
+}
+
+div.theme > img{
+    max-width: 100%;
+    margin-left: 50%; /*preguntar al profe*/
+}
+
+.bloque{
+    width: 100%;
+}
+
+.user{
+    width: 25%;
+    float: left;
+}
+
+.time {
+    color: grey;
+    float: left;
+}
+.topic{
+    width: 60%;
+    float: left;
+}
+
+.fecha{
+    color: grey;
+}
+
+.info{
+    width: 15%;
+    float: left;
+}
+
+.flechas{
+    height: 127px;
+}
+
+.stats{
+    width: 33%;
+    display: block;
+    margin: 0 auto;
+}
+
+.text-stats{
+    display: block;
+    margin: 0 auto;
+    /*font-size: 8px;  preguntar profe ¿tiene menos valor que el a?*/
+}
+
+div.flechas > a{
+    text-decoration: none;
+    text-align: center;
+}
+
+.debate-title{
+	width: 100%;
+	float: left;
+	background-color: aqua;
+}
+
+.debate-title > img{
+	float: left;
+	max-width: 100%;
+	margin-top: 8%;	
+}
+
+.debate-title > h1 {
+	float: left;
+	width: 80%;	
+}
+
+.debate-main{
+	width: 100%;
+	float:left;
+	background-color: yellow;
+}
+
+.user-debate{
+	width: 30%;
+	float: left;
+}
+
+.debate-main > .user-debate > p{
+	margin-left: 15px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.comment{
+	width: 70%;
+	float: left;
+}
+
+.debate-main > .comment > .comment1 > p{
+	margin-top: 10%;
+}
+
+.social-profile-icons{
+	width: 100%;	
+}
+
+.social-profile-icons > ul > li{
+	float:left;
+	list-style-type: none;
+}
+
+.comment > .social-profile-icons > ul > li > a > img{
+	width: 30px;
+	float: left;	
+}
+
+.comment > .social-profile-icons > ul{
+	float: right;
+}
+
+.answers{
+	margin-left: 15%;
+}
+
 header{
     
     background: 
@@ -10,80 +138,4 @@ header{
 footer{
     
     background: 
-}
-
-.headerHome{
-   width: 100%;
-    float: left;
-}
-.headerHome > a > #logo{
-    width: 300px;
-    float: left;
-    margin-left: 90px;
-    
-}
-.headerHome > a > #user{
-    width: 75px;
-    float: right;
-}
-.headerHome > #search{
-    width: 75px;
-    margin-left: 202.5px;   
-}
-
-main{
-    width: 100%;
-    float: left;
-}
-main > a > .cat{
-    width: 50%;
-    float: left;
-}
-main > a > .cat > img{
-    width: 200px;
-    margin-left: 20px;
-    margin-top: 20px;
-    transition: 3s;
-}
-main > a > .cat > h1{
-   text-align: center;
-    margin-left: 10px;
-    color: black;  
-}
-main > a > #lit{
-    background-color: aquamarine; 
-}
-main > a > #the{
-    background-color: pink;
-}
-main > a > #pho{
-    background-color: orange;
-}
-main > a > #pai{
-    background-color: mediumpurple;
-}
-main > a > #mus{
-    background-color: forestgreen;
-}
-main > a > #cin{
-    background-color: cornflowerblue;
-}
-
-div#lit:hover > img{
-    transform: rotateZ(360deg);
-}
-div#the:hover > img{
-    transform: rotateY(360deg);
-}
-div#pho:hover > img{
-    transform: rotateX(360deg);
-}
-div#pai:hover > img{
-    transform: scale(-1);
-}
-div#mus:hover > img{
-    transform: skew(180deg); 
-}
-div#cin:hover > img{
-    transform: rotate(-360deg); 
 }
