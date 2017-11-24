@@ -307,3 +307,25 @@ ul > li > a {
 #profileText p {
     margin-top:4px;
 }
+
+.columnLeft{
+    width: 50%;
+    float: left;
+    text-align: center;
+     
+}
+.columnRight {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.checkBox{
+    margin-top: 3%;
+}
+
+/* TODO: Check this */
+/*
+div.wrapper > img{
+    width: 300px;
+}
+*/
