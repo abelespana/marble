@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register/Log in</title>
+</head>
+       <link rel="stylesheet" href="css/style.css">
+<body>
+      <!--<div class="header">-->
+      <header>
+          <div class="wrapper">
+              <img src="img/logoMarble.png" alt="logoMarble">
+                  
+      <!--<div class="main">-->
+      <main>
+          <div class="wrapper">
+              <form action="register.html" method="post">
+                  <div class="columnLeft rightText">
+                      <label for="userName">User Name:</label>
+                  </div>
+                  <div class="columnRight">
+                      <input type="text" id="userName" name="userName" maxlength="15" placeholder="Write Name here" />
+                  </div>
+                  <div class="columnLeft rightText">
+                      <label for="userPassword">Your Password:</label>
+                  </div>
+                  <div class="columnRight">
+                      <input type="password" id="userPassword" name="userPassword" maxlength="15" placeholder="Password here" />
+                  </div>
+                  <div class="columnLeft rightText">
+                      <label for="userPasswordTwo">Repeat your Password:</label>
+                  </div>
+                  <div class="columnRight">
+                      <input type="password" id="userPasswordTwo" name="userPasswordTwo" maxlength="15" placeholder="Repeat password" />
+                  </div>
+                  <div class="columnLeft rightText">
+                      <label for="userEmail">Your Email:</label>
+                  </div>
+                  <div class="columnRight">
+                      <input type="email" id="userEmail" name="userEmail" maxlength="30" placeholder="Write your Email">
+                  </div>
+                  <div class="columnLeft rightText">
+                      <label for="genderN">Gender:</label>
+                  </div>
+                  <div class="columnRight">
+                      Male: <input type="radio" id="genderM" name="gender" value="M" />
+                      Female: <input type="radio" id="genderF" name="gender" value="F" />
+                      Indeterminate: <input type="radio" id="genderI" name="gender" value="I">
+                  </div>
+                  <div class="columnLeft rightText">
+                      <label for="age">Age:</label>
+                  </div>
+                  <div class="columnRight">
+                      <input type="date" id="age" name="age" min="1998-12-31" max="1957-12-31" />
+                  </div>
+                  <div class="columnLeft rightText">
+                      <label for="country">Country:</label>
+                  </div>
+                  <div class="columnRight">
+                      <select name="country" id="country">
+                          <option value="0">--select Your Country--</option>
+                          <option value="1">Amsterdam</option>
+                          <option value="2">Spain</option>
+                          <option value="3">China</option>
+                          <option value="4">Germany</option>
+                          <option value="5">Belgium</option>
+                          <option value="6">Denmark</option>
+                          <option value="7">Japan</option>
+                          <option value="8">Egypt</option>
+                          <option value="9">United States</option>
+                          <option value="10">Great Britain</option>
+                          <option value="11">Indonesia</option>
+                          <option value="12">Italy</option>
+                          <option value="13">Jamaica</option>
+                      </select> 
+                  </div>
+                  <div class="columnLeft rightText">
+                        <label for="city">City:</label>
+                  </div>
+                  <div class="columnRight">
+                      <select name="city" id="city">
+                          <option value="0">--select Your City--</option>
+                          <option value="1">Amsterdam</option>
+                          <option value="2">Brussels</option>
+                          <option value="3">Copenhagen</option>
+                          <option value="4">Rome</option>
+                          <option value="5">Hong Kong</option>
+                          <option value="6">Washington, D.C.	</option>
+                          <option value="7">Madrid</option>
+                          <option value="8">London</option>
+                          <option value="9">Luxembourg</option>
+                          <option value="10">Sydney</option>
+                          <option value="11">Tokyo</option>
+                          <option value="12">Saint Petersburg</option>
+                          <option value="13">Prague</option>
+                      </select>
+                  </div>
+                   <div class="columnLeft rightText">
+                    <label for="description">Description:</label>
+                </div>
+                <div class="columnRight">
+                    <textarea name="description" id="description" placeholder="Write here a description."></textarea>
+                </div>
+                
+                <div class="columnLeft righText">
+                    <label for="tos">Accept the terms:</label>
+                </div>
+                <div class="columnRight">
+                    <span class="checkBox"><input type="checkbox" id="tos" name="tos" value="1" /></span>
+                </div>
+                
+                <input type="hidden" name="currentStep" value="1" />
+                
+                <input type="submit" />
+                            
+               </form>
+           </div>
+       </main>
+           </div>
+       </header>
+       <footer>
+          <div class="wrapper">
+            You accept the <a href="privacyPolicyPage">privacy policy</a> as well as the <a href="cookiePolicyPage">cookie policy</a>.
+          </div>
+       </footer>    
+</body>    
+</html>
