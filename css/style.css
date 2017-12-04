@@ -1,3 +1,5 @@
+/*Vinculación a la fuente que vamos a usar en titulares */
+
 @font-face {
 	font-family: CaviarDreams;
 	src: url('../fonts/CaviarDreamsl.eot');
@@ -7,13 +9,12 @@
 	font-style: normal;
 }
 
-
 /* Hola Holita amiguitos */
 
 body{
 	margin: 0;
 	font-family:CaviarDreams;
-	background-color: #c2ecfc;
+/*	background-color: #c2ecfc;*/
 }
 
 nav > .logo > a > img{
@@ -31,22 +32,12 @@ nav > .search > a > img{
     margin: 0 auto;
     
 }
-
-/* Color de los enlaces y decoración
-a {
-    text-decoration:none;
-    color:aquamarine;
-}
-*/
-
 /* Movidas de Blanca */
-
 
 .theme{
     width: 100%;
     margin: 0 auto;
 	float: left;
-	
 }
 
 div.theme > h1{
@@ -173,14 +164,8 @@ div.flechas > a{
 	margin-left: 15%;
 	border-left: 6px solid #333;
 	float: left;
-	
 }
 
-
-
-
-
-footer{
 /*----------------------------*/
 
 /*Fin del código de todos*/
@@ -282,7 +267,6 @@ div#cin:hover > img{
 #headerProfile {
     width:100%;
     float:left;
-    background-color:aquamarine;
     border-bottom-style:solid;
     border-bottom-width:1px;
     border-bottom-color:black;
@@ -291,21 +275,20 @@ div#cin:hover > img{
 
 #headerProfile > img {
     width:50%;
-    margin-left:120px;
+    margin-left:25%;
+    margin-bottom:-120px;
+    margin-top:-80px;
 }
 
 #headerProfile > h1 {
     text-align:center;
-    margin-bottom:30px;
-    margin-top:0px;
+    margin-bottom:50px;
 
 }
 #profileContent {
-    background-color:yellow;
     width:100%;
     margin:0 auto;
     float:left;
-    background-color:aquamarine;
     border-style:solid;
     border-width:1px;
     border-color:black;
