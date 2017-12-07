@@ -362,8 +362,103 @@ div.wrapper > img{
     width: 300px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px){
+    
+    .wrapper{
+    width: 320px;
+    margin: 0 auto;
+    
+}
+    
+    .headerHome{
+   width: 100%;
+    float: left;
+}
+.headerHome > a > #logo{
+    width: 100%;
+    float: left;
+    max-height: 75px;
+    
+}
+.headerHome > a > #user{
+    width: 50%;
+    float: left;
+	height: 48px;
+}
+.headerHome > #search{
+    width: 50%;
+    float: left;
+    height: 48px;
+}
+.headerHome > input{
+	display: none;
+	}
 
-@media screen and (max-width: 480px){
+main{
+    width: 100%;
+    float: left;
+}
+main > a > .cat{
+    width: 100%;
+    float: left;
+}
+main > a > .cat > img{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 20px;
+    transition: 3s;
+}
+main > a > .cat > h1{
+   text-align: center;
+    margin-left: 5%;
+    color: black;  
+}
+main > a > #lit{
+    background-color: aquamarine;
+    
+}
+main > a > #the{
+    background-color: pink;
+}
+main > a > #pho{
+    background-color: orange;
+}
+main > a > #pai{
+    background-color: mediumpurple;
+}
+main > a > #mus{
+    background-color: forestgreen;
+}
+main > a > #cin{
+    background-color: cornflowerblue;
+}
+
+div#lit:hover > img{
+    transform: rotateZ(360deg);
+    transition: 3s;
+}
+div#the:hover > img{
+    transform: rotateY(360deg);
+    transition: 3s;
+}
+div#pho:hover > img{
+    transform: rotateX(360deg);
+    transition: 3s;
+}
+div#pai:hover > img{
+    transform: scale(-1);
+    transition: 3s;
+}
+div#mus:hover > img{
+    transform: skew(180deg);
+    transition: 3s;
+}
+div#cin:hover > img{
+    transform: rotate(-360deg);
+    transition: 3s;
+}
+}
+/*@media screen and (max-width: 480px){
 	.wrapper{
 	width: 400px;
     margin: 0 auto;
@@ -373,9 +468,44 @@ div.wrapper > img{
 		font-size: 1em;
 	}
 	
+}*/
+@media screen and (min-width: 480px) and (max-width: 960px){
+	
+	
+	.wrapper{
+	width: 550px;
+    margin: 0 auto;
+	}
+	
+	main > a > .cat{
+    width: 50%;
+    float: left;
+	}
+
+	.headerHome > a > #logo{
+	max-width: 30%; 
+    float: left;
+	}
+	.headerHome > a > #user{
+    width: 25%;
+    float: left;
+	height: 75px;
+	}
+	.headerHome > #search{
+	display: none;
+	}
+	.headerHome > input{
+    width: 10%;
+    float: left;
+    height: 25px;
+	display: block;
+	margin-top: 20px;
+	}
+	.headerHome > .cajitaEspesial{
+		width: 25%;
+	}
+	
 }
-
-
 @media screen and (min-width: 961px) and (max-width: 2000px){
 	.wrapper{
 	width: 960px;
@@ -412,40 +542,4 @@ div.wrapper > img{
 		width: 25%;
 	}
 }
-@media screen and (min-width: 481px) and (max-width: 960px){
 	
-	
-	.wrapper{
-	width: 550px;
-    margin: 0 auto;
-	}
-	
-	main > a > .cat{
-    width: 50%;
-    float: left;
-	}
-
-	.headerHome > a > #logo{
-	max-width: 30%; 
-    float: left;
-	}
-	.headerHome > a > #user{
-    width: 25%;
-    float: left;
-	height: 75px;
-	}
-	.headerHome > #search{
-	display: none;
-	}
-	.headerHome > input{
-    width: 10%;
-    float: left;
-    height: 25px;
-	display: block;
-	margin-top: 20px;
-	}
-	.headerHome > .cajitaEspesial{
-		width: 25%;
-	}
-	
-}	
