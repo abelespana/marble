@@ -21,6 +21,14 @@ nav > .logo > a > img{
 	width: 200px;
 	float: left;
 }
+
+nav > .add > img{
+    width: 50px;
+    margin-left: 33%;
+    float: left;
+    margin-right: 2%;
+}
+
 nav > .search > a > img{
 	width: 50px;
 	float: right;
@@ -33,6 +41,9 @@ nav > .search > a > img{
     
 }
 /* Movidas de Blanca */
+
+
+
 
 .theme{
     width: 100%;
@@ -192,6 +203,8 @@ div.flechas > a{
     float: left;
     height: 48px;
 }
+
+
 .headerHome > input{
 	display: none;
 	}
