@@ -4,25 +4,28 @@
 	font-family: CaviarDreams;
 	src: url('../fonts/CaviarDreamsl.eot');
 	src: local('☺'), 
-        url('../fonts/CaviarDreams.woff') format('woff'), url('../fonts/CaviarDreams.ttf') format('truetype'), url('../fonts/CaviarDreamsl.svg') format('svg');
+        url('../fonts/CaviarDreams.woff') format('woff'), url('../fonts/CaviarDreams.ttf') 
+        format('truetype'), url('../fonts/CaviarDreamsl.svg') format('svg');
+
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-  font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?dk5ln9');
-  src:  url('../fonts/icomoon.eot?dk5ln9#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?dk5ln9') format('truetype'),
-    url('../fonts/icomoon.woff?dk5ln9') format('woff'),
-    url('../fonts/icomoon.svg?dk5ln9#icomoon') format('svg');
+  font-family: 'home';
+  src:  url('../fonts/home.eot?48gxbd');
+  src:  url('../fonts/home.eot?48gxbd#iefix') format('embedded-opentype'),
+    url('../fonts/home.ttf?48gxbd') format('truetype'),
+    url('../fonts/home.woff?48gxbd') format('woff'),
+    url('../fonts/home.svg?48gxbd#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
+
 }
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: 'home' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -35,116 +38,29 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-folder:before {
-  content: "\e900";
-}
-.icon-lock:before {
-  content: "\e901";
-}
-.icon-lock-open:before {
-  content: "\e902";
-}
-.icon-whistle:before {
-  content: "\e903";
-}
-.icon-thumb-up:before {
-  content: "\e904";
-}
-.icon-thumb-down:before {
-  content: "\e905";
-}
-.icon-link:before {
+.icon-pencil2:before {
   content: "\e906";
 }
-.icon-tv:before {
-  content: "\e907";
-}
 .icon-camera:before {
-  content: "\e908";
-}
-.icon-camera2:before {
-  content: "\e909";
-}
-.icon-film:before {
-  content: "\e90a";
-}
-.icon-film2:before {
-  content: "\e90b";
-}
-.icon-microphone:before {
-  content: "\e90c";
-}
-.icon-cog:before {
-  content: "\e90d";
-}
-.icon-pacman:before {
-  content: "\e90e";
-}
-.icon-gamepad:before {
   content: "\e90f";
 }
-.icon-trashcan:before {
-  content: "\e910";
-}
-.icon-FB:before {
+.icon-music:before {
   content: "\e911";
-  color: #3b5998;
 }
-.icon-Gplus:before {
-  content: "\e912";
-  color: #dc4e41;
-}
-.icon-TW:before {
-  content: "\e913";
-  color: #1da1f2;
-}
-.icon-home:before {
+.icon-video-camera:before {
   content: "\e914";
 }
-.icon-pushpin:before {
-  content: "\e946";
+.icon-book:before {
+  content: "\e91f";
 }
-.icon-bubble:before {
-  content: "\e96b";
+.icon-theatre:before {
+  content: "\e921";
 }
 .icon-user:before {
   content: "\e971";
 }
-.icon-bug:before {
-  content: "\e999";
-}
-.icon-leaf:before {
-  content: "\e9a4";
-}
-.icon-rocket:before {
-  content: "\e9a5";
-}
-.icon-switch:before {
-  content: "\e9b6";
-}
-.icon-star-full:before {
-  content: "\e9d9";
-}
-.icon-heart:before {
-  content: "\e9da";
-}
-.icon-heart-broken:before {
-  content: "\e9db";
-}
-.icon-wink:before {
-  content: "\e9e7";
-}
-.icon-arrow-up:before {
-  content: "\ea32";
-}
-.icon-filter:before {
-  content: "\ea5b";
-}
-.icon-share2:before {
-  content: "\ea82";
-}
-.icon-eye:before {
-  content: "\e9ce";
+.icon-search:before {
+  content: "\e986";
 }
 
 
@@ -152,7 +68,8 @@
 
 body{
 	margin: 0;
-	font-family:CaviarDreams;
+    font-family:CaviarDreams;
+	
 /*	background-color: #c2ecfc;*/
 }
 
@@ -175,7 +92,7 @@ nav > .search > a > img{
 }
 
 .wrapper{
-    width: 480px;
+    width: 960px;
     margin: 0 auto;
     
 }
@@ -325,7 +242,7 @@ div.flechas > a{
 .headerHome{
    width: 100%;
     float: left;
-}
+}/*
 .headerHome > a > #logo{
     width: 50%;
     float: left;
@@ -341,9 +258,7 @@ div.flechas > a{
     width: 25%;
     float: left;
     height: 48px;
-}
-
-
+}*/
 .headerHome > input{
 	display: none;
 	}
@@ -351,39 +266,39 @@ div.flechas > a{
 main{
     width: 100%;
     float: left;
-}
+}/*
 main > a > .cat{
     width: 50%;
     float: left;
-}
-main > a > .cat > img{
+}*/
+main > div > div > a  > .cat > div{
     width: 30%;
     margin-left: 35%;
     margin-top: 20px;
     transition: 3s;
 }
-main > a > .cat > h1{
+main > div > div > a  > .cat > h1{
    text-align: center;
     margin-left: 5%;
     color: black;  
 }
-main > a > #lit{
+main > div > div > a  > #lit{
     background-color: aquamarine;
     
 }
-main > a > #the{
+main > div > div > a > #the{
     background-color: pink;
 }
-main > a > #pho{
+main > div > div > a > #pho{
     background-color: orange;
 }
-main > a > #pai{
+main > div > div > a > #pai{
     background-color: mediumpurple;
 }
-main > a > #mus{
+main > div > div > a > #mus{
     background-color: forestgreen;
 }
-main > a > #cin{
+main > div > div > a > #cin{
     background-color: cornflowerblue;
 }
 
@@ -513,9 +428,9 @@ ul > li > a {
 div.wrapper > img{
     width: 300px;
 }
-/*
-@media screen and (min-width: 280px) and (max-width: 479px){
-    
+
+/*@media screen (min-width: @screen-sm-min){
+   
     .wrapper{
     width: 320px;
     margin: 0 auto;
@@ -609,19 +524,9 @@ div#cin:hover > img{
     transform: rotate(-360deg);
     transition: 3s;
 }
-}
-/*@media screen and (max-width: 480px){
-	.wrapper{
-	width: 400px;
-    margin: 0 auto;
-	}
-	
-.bloque > div.topic > a > h2{
-		font-size: 1em;
-	}
-	
-}
-@media screen and (min-width: 480px) and (max-width: 960px){
+}*/
+
+/*@media screen and (min-width: 480px) and (max-width: 960px){
 	
 	
 	.wrapper{
@@ -693,5 +598,5 @@ div#cin:hover > img{
 	.headerHome > .cajitaEspesial{
 		width: 25%;
 	}
-}
-	*/
+}*/
+	
