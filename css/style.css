@@ -1,9 +1,8 @@
 /*Vinculación a la fuente que vamos a usar en titulares */
-
 @font-face {
 	font-family: CaviarDreams;
 	src: url('../fonts/CaviarDreamsl.eot');
-	src: local('☺'), 
+	src: local('☺'),
         url('../fonts/CaviarDreams.woff') format('woff'), url('../fonts/CaviarDreams.ttf') format('truetype'), url('../fonts/CaviarDreamsl.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
@@ -26,40 +25,33 @@ nav > .search > a > img{
 	float: right;
 	margin-right: 2%;
 }
-
 .wrapper{
-    width: 480px;
+    width: 960px;
     margin: 0 auto;
-    
-}
-/* Movidas de Blanca */
 
+}
+/*Fin del código de todos*/
+/* Movidas de Blanca */
 .theme{
     width: 100%;
     margin: 0 auto;
 	float: left;
 }
-
 div.theme > h1{
     text-align: center;
 }
-
 div.theme > img{
     max-width: 100%;
     margin-left: 50%; /*preguntar al profe*/
 }
-
 .bloque{
     width: 100%;
 	float: left;
-	
 }
-
 .user{
     width: 25%;
     float: left;
 }
-
 .time {
     color: grey;
     float: left;
@@ -68,107 +60,85 @@ div.theme > img{
     width: 60%;
     float: left;
 }
-
 .fecha{
     color: grey;
 }
-
 .info{
     width: 15%;
     float: left;
 }
-
 .flechas{
     height: 127px;
 }
-
 .stats{
     width: 33%;
     display: block;
     margin: 0 auto;
 }
-
 .text-stats{
     display: block;
     margin: 0 auto;
     /*font-size: 8px;  preguntar profe ¿tiene menos valor que el a?*/
 }
-
 div.flechas > a{
     text-decoration: none;
     text-align: center;
 }
-
 .debate-title{
 	width: 100%;
 	float: left;
-	
-}
 
+}
 .debate-title > img{
 	float: left;
 	max-width: 100%;
-	margin-top: 8%;	
+	margin-top: 8%;
 }
-
 .debate-title > h1 {
 	float: left;
-	width: 80%;	
+	width: 80%;
 }
-
 .debate-main{
 	width: 100%;
 	float:left;
-	
 }
-
 .user-debate{
 	width: 30%;
 	float: left;
 }
-
 .debate-main > .user-debate > p{
 	margin-left: 15px;
 	margin-bottom: 0;
 	margin-top: 0;
 }
-
 .comment{
 	width: 70%;
 	float: left;
 }
-
 .debate-main > .comment > .comment1 > p{
 	margin-top: 10%;
 }
-
 .social-profile-icons{
-	width: 100%;	
+	width: 100%;
 }
-
 .social-profile-icons > ul > li{
 	float:left;
 	list-style-type: none;
 }
-
 .comment > .social-profile-icons > ul > li > a > img{
 	width: 30px;
-	float: left;	
+	float: left;
 }
-
 .comment > .social-profile-icons > ul{
 	float: right;
 }
-
 .answers{
 	margin-left: 15%;
 	border-left: 6px solid #333;
 	float: left;
 }
 
-/*----------------------------*/
-
-/*Fin del código de todos*/
+/* Fin del código de Blanca */
 
 /*Inicio del código de Mikel*/
 }
@@ -180,7 +150,7 @@ div.flechas > a{
     width: 50%;
     float: left;
     max-height: 75px;
-    
+
 }
 .headerHome > a > #user{
     width: 25%;
@@ -213,11 +183,11 @@ main > a > .cat > img{
 main > a > .cat > h1{
    text-align: center;
     margin-left: 5%;
-    color: black;  
+    color: black;
 }
 main > a > #lit{
     background-color: aquamarine;
-    
+
 }
 main > a > #the{
     background-color: pink;
@@ -264,7 +234,7 @@ div#cin:hover > img{
 
 /*Código de Abel */
 
-#headerProfile {
+#profileHeader {
     width:100%;
     float:left;
     border-bottom-style:solid;
@@ -273,16 +243,15 @@ div#cin:hover > img{
     margin-bottom:15px;
 }
 
-#headerProfile > img {
-    width:50%;
-    margin-left:25%;
-    margin-bottom:-120px;
-    margin-top:-80px;
+#profileHeader > img {
+    width:25%;
+    margin-left:37.5%;
+		margin-bottom:-20px;
 }
 
-#headerProfile > h1 {
+#profileHeader > h1 {
     text-align:center;
-    margin-bottom:50px;
+    margin-bottom:20px;
 
 }
 #profileContent {
@@ -307,21 +276,18 @@ div#cin:hover > img{
     opacity:0.6 ;
 }
 
-ul li {
+ul#profileTabSwitcher li {
     list-style-type:none;
-    width:33.1%;
+    width:33.33%;
     float:left;
-    border-right-style:solid;
-    border-right-width:1px;
-    border-right-color:white;
-    background-color:grey;
+		background-color:grey;
     text-align:center;
     color:white;
     height:30px;
     line-height:30px;
 }
 
-ul > li > a {
+ul#profileTabSwitcher > li > a {
     text-decoration:none;
     color:white;
 }
@@ -334,11 +300,21 @@ ul > li > a {
     margin-top:4px;
 }
 
+#profileUserInfo input {
+	margin-bottom:15px;
+}
+
+.userInfoDetailed {
+	margin-bottom:10px;
+	display:none;
+}
+
+/* Código de Róber */
 .columnLeft{
     width: 50%;
     float: left;
     text-align: center;
-     
+
 }
 .columnRight {
     width: 50%;
@@ -356,21 +332,21 @@ ul > li > a {
 }
 
 
-/* TODO: Check this */
-
+/* Qué demonios era esto */
 div.wrapper > img{
     width: 300px;
 }
-/*
+/* Qué demonios era esto */
+
+
+/* RESPONSIVE DESIGN */
+/* Apertura media querie móviles */
 @media screen and (min-width: 280px) and (max-width: 479px){
-    
-    .wrapper{
+.wrapper{
     width: 320px;
     margin: 0 auto;
-    
 }
-    
-    .headerHome{
+.headerHome{
    width: 100%;
     float: left;
 }
@@ -378,7 +354,6 @@ div.wrapper > img{
     width: 100%;
     float: left;
     max-height: 75px;
-    
 }
 .headerHome > a > #user{
     width: 50%;
@@ -392,7 +367,7 @@ div.wrapper > img{
 }
 .headerHome > input{
 	display: none;
-	}
+}
 
 main{
     width: 100%;
@@ -411,11 +386,10 @@ main > a > .cat > img{
 main > a > .cat > h1{
    text-align: center;
     margin-left: 5%;
-    color: black;  
+    color: black;
 }
 main > a > #lit{
     background-color: aquamarine;
-    
 }
 main > a > #the{
     background-color: pink;
@@ -432,7 +406,6 @@ main > a > #mus{
 main > a > #cin{
     background-color: cornflowerblue;
 }
-
 div#lit:hover > img{
     transform: rotateZ(360deg);
     transition: 3s;
@@ -457,89 +430,85 @@ div#cin:hover > img{
     transform: rotate(-360deg);
     transition: 3s;
 }
-}
-/*@media screen and (max-width: 480px){
-	.wrapper{
+} /* Cierre media querie móviles */
+
+ /* Apertura media querie tablets */
+@media screen and (max-width: 480px){
+.wrapper{
 	width: 400px;
     margin: 0 auto;
-	}
-	
+}
 .bloque > div.topic > a > h2{
 		font-size: 1em;
-	}
-	
 }
-@media screen and (min-width: 480px) and (max-width: 960px){
-	
-	
-	.wrapper{
-	width: 550px;
-    margin: 0 auto;
-	}
-	
-	main > a > .cat{
-    width: 50%;
-    float: left;
-	}
+}
+ /* Cierre media querie tablets */
 
-	.headerHome > a > #logo{
-	max-width: 30%; 
-    float: left;
-	}
-	.headerHome > a > #user{
-    width: 25%;
-    float: left;
+@media screen and (min-width: 480px) and (max-width: 960px){
+.wrapper{
+	width: 550px;
+  margin: 0 auto;
+}
+main > a > .cat{
+  width: 50%;
+  float: left;
+}
+.headerHome > a > #logo{
+	max-width: 30%;
+	float: left;
+}
+.headerHome > a > #user{
+  width: 25%;
+  float: left;
 	height: 75px;
-	}
-	.headerHome > #search{
+}
+.headerHome > #search{
 	display: none;
-	}
-	.headerHome > input{
-    width: 10%;
-    float: left;
-    height: 25px;
+}
+.headerHome > input{
+  width: 10%;
+  float: left;
+  height: 25px;
 	display: block;
 	margin-top: 20px;
-	}
-	.headerHome > .cajitaEspesial{
-		width: 25%;
-	}
-	
 }
+.headerHome > .cajitaEspesial{
+	width: 25%;
+}
+}
+
+/* Apertura media querie desktop */
 @media screen and (min-width: 961px) and (max-width: 2000px){
-	.wrapper{
+.wrapper {
 	width: 960px;
-    margin: 0 auto;
-   
-	}
-	
-	main > a > .cat{
-    width: 30%;
-    float: left;
+  margin: 0 auto;
 }
-	
-	
-	.headerHome > a > #logo{
-	max-width: 30%; 
-    float: left;
-	}
-	.headerHome > a > #user{
-    width: 25%;
-    float: left;
+
+main > a > .cat{
+  width: 30%;
+  float: left;
+}
+.headerHome > a > #logo{
+	max-width: 30%;
+  float: left;
+}
+.headerHome > a > #user{
+  width: 25%;
+  float: left;
 	height: 75px;
-	}
-	.headerHome > #search{
+}
+.headerHome > #search{
 	display: none;
-	}
-	.headerHome > input{
-    width: 10%;
-    float: left;
-    height: 25px;
+}
+.headerHome > input{
+  width: 10%;
+  float: left;
+  height: 25px;
 	display: block;
 	margin-top: 20px;
-	}
-	.headerHome > .cajitaEspesial{
-		width: 25%;
-	}
 }
-	*/
+.headerHome > .cajitaEspesial{
+	width: 25%;
+}
+}
+ /* Cierre media querie desktop */
