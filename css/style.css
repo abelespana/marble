@@ -361,8 +361,8 @@ ul > li > a {
 div.wrapper > img{
     width: 300px;
 }
-
-@media screen and (min-width: 320px) and (max-width: 479px){
+/*
+@media screen and (min-width: 280px) and (max-width: 479px){
     
     .wrapper{
     width: 320px;
@@ -468,7 +468,7 @@ div#cin:hover > img{
 		font-size: 1em;
 	}
 	
-}*/
+}
 @media screen and (min-width: 480px) and (max-width: 960px){
 	
 	
@@ -542,4 +542,4 @@ div#cin:hover > img{
 		width: 25%;
 	}
 }
-	
+	*/
