@@ -92,14 +92,11 @@ nav > .search > a > img{
 }
 
 .wrapper{
-    width: 960px;
+    width: 480px;
     margin: 0 auto;
     
 }
 /* Movidas de Blanca */
-
-
-
 
 .theme{
     width: 100%;
@@ -428,10 +425,13 @@ ul > li > a {
 div.wrapper > img{
     width: 300px;
 }
+/* Qué demonios era esto */
 
-/*@media screen (min-width: @screen-sm-min){
-   
-    .wrapper{
+
+/* RESPONSIVE DESIGN */
+/* Apertura media querie móviles */
+@media screen and (min-width: 280px) and (max-width: 479px){
+.wrapper{
     width: 320px;
     margin: 0 auto;
     
@@ -524,28 +524,36 @@ div#cin:hover > img{
     transform: rotate(-360deg);
     transition: 3s;
 }
-}*/
+} /* Cierre media querie móviles */
 
-/*@media screen and (min-width: 480px) and (max-width: 960px){
-	
-	
-	.wrapper{
-	width: 550px;
+ /* Apertura media querie tablets */
+@media screen and (max-width: 480px){
+.wrapper{
+	width: 400px;
     margin: 0 auto;
-	}
-	
-	main > a > .cat{
-    width: 50%;
-    float: left;
-	}
+}
+.bloque > div.topic > a > h2{
+		font-size: 1em;
+}
+}
+ /* Cierre media querie tablets */
 
-	.headerHome > a > #logo{
-	max-width: 30%; 
-    float: left;
-	}
-	.headerHome > a > #user{
-    width: 25%;
-    float: left;
+@media screen and (min-width: 480px) and (max-width: 960px){
+.wrapper{
+	width: 550px;
+  margin: 0 auto;
+}
+main > a > .cat{
+  width: 50%;
+  float: left;
+}
+.headerHome > a > #logo{
+	max-width: 30%;
+	float: left;
+}
+.headerHome > a > #user{
+  width: 25%;
+  float: left;
 	height: 75px;
 	}
 	.headerHome > #search{
@@ -594,9 +602,9 @@ div#cin:hover > img{
     height: 25px;
 	display: block;
 	margin-top: 20px;
-	}
-	.headerHome > .cajitaEspesial{
-		width: 25%;
-	}
-}*/
-	
+}
+.headerHome > .cajitaEspesial{
+	width: 25%;
+}
+}
+ /* Cierre media querie desktop */
