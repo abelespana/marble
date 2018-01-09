@@ -234,6 +234,49 @@ div#cin:hover > img{
 
 /*Código de Abel */
 
+#modalWindow {
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0,0,0,0.7);
+}
+
+#modalWindowContent {
+	background-color:aquamarine;
+	padding:15px;
+	width:calc(24% - 15px);
+	margin-top:200px;
+	margin-left:38%;
+}
+
+#modalWindowContent > img {
+	width:75%;
+	margin-left:12.5%;
+	margin-bottom:18px;
+}
+
+.modalWindowField {
+	width:70%;
+	margin-left:15%;
+	margin-bottom:10px;
+	margin-right:15%;
+	font-size:0.8em;
+}
+
+.marginless {
+	margin-right:0%;
+}
+
+.modalWindowFieldError {
+	color:red;
+	font-size:1em;
+	font-style:italic;
+}
+
 #profileHeader {
     width:100%;
     float:left;
@@ -275,6 +318,9 @@ div#cin:hover > img{
 #profileTabSwitcher li.notselected {
     opacity:0.6 ;
 }
+#profileTabSwitcher li.notselected:active{
+	opacity:1;
+}
 
 ul#profileTabSwitcher li {
     list-style-type:none;
@@ -302,6 +348,19 @@ ul#profileTabSwitcher > li > a {
 
 #profileUserInfo input {
 	margin-bottom:15px;
+}
+
+#profileUserInfo > .barraSeparadora {
+	width:100%;
+	background-color:black;
+	height:2px;
+	display:none;
+	margin: 15px 0;
+}
+
+#profileUserVisited, #profileUserVoted, #profileUserComented {
+	line-height:35px;
+	display:none;
 }
 
 .userInfoDetailed {
