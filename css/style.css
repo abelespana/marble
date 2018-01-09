@@ -1,13 +1,13 @@
 /*Vinculación a la fuente que vamos a usar en titulares */
 
-/*@font-face {
-	font-family: CaviarDreams;
-	src: url('../fonts/CaviarDreamsl.eot');
-	src: local('☺'), 
+@font-face {
+  font-family: CaviarDreams;
+  src: url('../fonts/CaviarDreamsl.eot');
+  src: local('☺'), 
         url('../fonts/CaviarDreams.woff') format('woff'), url('../fonts/CaviarDreams.ttf') format('truetype'), url('../fonts/CaviarDreamsl.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}*/
+  font-weight: normal;
+  font-style: normal;
+}
 
 @font-face {
   font-family: 'icomoon';
@@ -18,17 +18,12 @@
     url('../fonts/icomoon.svg?dk5ln9#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
-  font-style: normal ;
-  
-
 }
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: none;
-  font-size: 550%;
-  color: black;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -40,9 +35,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
-.icon-book:before {
-  content: "\e91f";
 .icon-folder:before {
   content: "\e900";
 }
@@ -63,9 +55,6 @@
 }
 .icon-link:before {
   content: "\e906";
-}
-.icon-theatre:before {
-  content: "\e921";
 }
 .icon-tv:before {
   content: "\e907";
@@ -98,16 +87,9 @@
   content: "\e910";
 }
 .icon-FB:before {
-.icon-pencil2:before {
-  content: "\e906";
-}
-.icon-music:before {
   content: "\e911";
   color: #3b5998;
 }
-.icon-Gplus:before {
-  content: "\e912";
-  color: #dc4e41;
 .icon-Gplus:before {
   content: "\e912";
   color: #dc4e41;
@@ -121,12 +103,7 @@
 }
 .icon-pushpin:before {
   content: "\e946";
-.icon-TW:before {
-  content: "\e913";
-  color: #1da1f2;
 }
-.icon-home:before {
-  content: "\e914";
 .icon-bubble:before {
   content: "\e96b";
 }
@@ -168,6 +145,65 @@
 }
 .icon-eye:before {
   content: "\e9ce";
+}
+
+
+
+@font-face {
+  font-family: 'home';
+  src:  url('../fonts/home.eot?48gxbd');
+  src:  url('../fonts/home.eot?48gxbd#iefix') format('embedded-opentype'),
+    url('../fonts/home.ttf?48gxbd') format('truetype'),
+    url('../fonts/home.woff?48gxbd') format('woff'),
+    url('../fonts/home.svg?48gxbd#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal ;
+  
+
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'home' !important;
+  speak: none;
+  font-size: 550%;
+  color: black;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-book:before {
+  content: "\e91f";
+}
+.icon-theatre:before {
+  content: "\e921";
+}
+.icon-camera:before {
+  content: "\e90f";
+}
+.icon-pencil2:before {
+  content: "\e906";
+}
+.icon-music:before {
+  content: "\e911";
+}
+.icon-video-camera:before {
+  content: "\e914";
+}
+
+.icon-user:before {
+  content: "\e971";
+}
+.icon-search:before {
+  content: "\e986";
 }
 
 
