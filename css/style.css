@@ -43,9 +43,32 @@
 
 .icon-book:before {
   content: "\e91f";
+.icon-folder:before {
+  content: "\e900";
+}
+.icon-lock:before {
+  content: "\e901";
+}
+.icon-lock-open:before {
+  content: "\e902";
+}
+.icon-whistle:before {
+  content: "\e903";
+}
+.icon-thumb-up:before {
+  content: "\e904";
+}
+.icon-thumb-down:before {
+  content: "\e905";
+}
+.icon-link:before {
+  content: "\e906";
 }
 .icon-theatre:before {
   content: "\e921";
+}
+.icon-tv:before {
+  content: "\e907";
 }
 .icon-camera:before {
   content: "\e908";
@@ -71,6 +94,10 @@
 .icon-gamepad:before {
   content: "\e90f";
 }
+.icon-trashcan:before {
+  content: "\e910";
+}
+.icon-FB:before {
 .icon-pencil2:before {
   content: "\e906";
 }
@@ -81,6 +108,9 @@
 .icon-Gplus:before {
   content: "\e912";
   color: #dc4e41;
+.icon-Gplus:before {
+  content: "\e912";
+  color: #dc4e41;
 }
 .icon-TW:before {
   content: "\e913";
@@ -88,6 +118,17 @@
 }
 .icon-home:before {
   content: "\e914";
+}
+.icon-pushpin:before {
+  content: "\e946";
+.icon-TW:before {
+  content: "\e913";
+  color: #1da1f2;
+}
+.icon-home:before {
+  content: "\e914";
+.icon-bubble:before {
+  content: "\e96b";
 }
 .icon-user:before {
   content: "\e971";
