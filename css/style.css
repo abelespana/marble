@@ -1,4 +1,10 @@
 
+/*@font-face {
+	font-family: CaviarDreams;
+	src: url('../fonts/CaviarDreamsl.eot');
+	src: local('☺'), 
+        url('../fonts/CaviarDreams.woff') format('woff'), url('../fonts/CaviarDreams.ttf') 
+        format('truetype'), url('../fonts/CaviarDreamsl.svg') format('svg');
 
 @font-face {
   font-family: 'icomoon';
@@ -192,7 +198,7 @@
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'home' !important;
   speak: none;
-  font-size: 550%;
+  
   color: black;
   font-style: normal;
   font-weight: normal;
@@ -208,28 +214,37 @@
 
 .icon-book:before {
   content: "\e91f";
+  font-size: 550%;
 }
 .icon-theatre:before {
   content: "\e921";
+  font-size: 550%;
 }
 .icon-camera:before {
   content: "\e90f";
+  font-size: 550%;
 }
 .icon-pencil2:before {
   content: "\e906";
+  font-size: 550%;
 }
 .icon-music:before {
   content: "\e911";
+  font-size: 550%;
 }
 .icon-video-camera:before {
   content: "\e914";
+  font-size: 550%;
 }
 
 .icon-user:before {
   content: "\e971";
+  font-size: 350%;
+
 }
 .icon-search:before {
   content: "\e986";
+  font-size: 350%;
 }
 
 
@@ -436,49 +451,62 @@ max-width: 100%;
 .headerHome{
    width: 100%;
     float: left;
-}
+}/*
 .headerHome > a > #logo{
     width: 50%;
     float: left;
-    max-height: 75px;
+    /*width: 50%;*/
+    /*max-height: 75px;*/
     
-}
-
+}*/
+/*
 .headerHome > a > #user{
     width: 25%;
     float: left;
-	height: 48px;
+    /*width: 25%;*/
+    /*height: 48px;*/
 }
-.headerHome > #search{
-    width: 25%;
+.headerHome > div > div > #search{
     float: left;
     height: 48px;
-}
-
-
+}*/
 .headerHome > input{
 	display: none;
 	}
+
+    /*width: 25%;*/
+    /*height: 48px;*/
+}
+
+
+.headerHome > div > div > input{
+  display: none;
+  }
+
+
 
 main{
     width: 100%;
     float: left;
 }
 main > div > div > a > .cat{
-    width: 50%;
+    /*width: 50%;*/
     float: left;
 }
 main > div > div > a > .cat > div{
-    width: 30%;
+    /*width: 30%;*/
     margin-left: 35%;
     margin-top: 20px;
     transition: 3s;
 }
+
 main > div > div > a > .cat > h1{
-   text-align: center;
+    text-align: center;
     margin-left: 5%;
-    color: black;  
+    color: black; 
+    font-size: 250%; 
 }
+
 main > div > div > a > #lit{
     background-color: aquamarine;
     
@@ -614,9 +642,9 @@ div#cin:hover > div{
 }
 
 #botonsito{
-	margin-left: 45%;
-	margin-top: 20px;
-	margin-bottom: 20px;
+  margin-left: 45%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 
@@ -624,187 +652,333 @@ div#cin:hover > div{
 /* 
 div.wrapper > img{
     width: 300px;
-} */
+}
 /* Qué demonios era esto */
 
 
 /* RESPONSIVE DESIGN */
+
+
+
+
+
 /* Apertura media querie móviles */
-@media screen and (min-width: 280px) and (max-width: 479px){
-.wrapper{
-    width: 320px;
-    margin: 0 auto;
-    
-}
-    
-    .headerHome{
-   width: 100%;
-    float: left;
-}
-.headerHome > a > #logo{
-    width: 100%;
-    float: left;
-    max-height: 75px;
-    
-}
-.headerHome > a > #user{
-    width: 50%;
-    float: left;
-	height: 48px;
-}
-.headerHome > #search{
-    width: 50%;
-    float: left;
-    height: 48px;
-}
-.headerHome > input{
-	display: none;
-	}
 
-main{
-    width: 100%;
-    float: left;
-}
-main > a > .cat{
-    width: 100%;
-    float: left;
-}
-main > a > .cat > img{
-    width: 30%;
-    margin-left: 35%;
-    margin-top: 20px;
-    transition: 3s;
-}
-main > a > .cat > h1{
-   text-align: center;
-    margin-left: 5%;
-    color: black;  
-}
-main > a > #lit{
-    background-color: aquamarine;
-    
-}
-main > a > #the{
-    background-color: pink;
-}
-main > a > #pho{
-    background-color: orange;
-}
-main > a > #pai{
-    background-color: mediumpurple;
-}
-main > a > #mus{
-    background-color: forestgreen;
-}
-main > a > #cin{
-    background-color: cornflowerblue;
-}
+@media screen and (max-width: 768px){
+  .wrapper{
 
-div#lit:hover > img{
-    transform: rotateZ(360deg);
-    transition: 3s;
+      width: 280px;
+      margin: 0 auto;  
+  }
+      
+  .headerHome{
+      width: 100%;
+      float: left;
+  }
+  .headerHome > div > div > a > #logo{
+      float: left;
+      /*width: 100%;*/
+      /*max-height: 75px;*/
+      
+  }
+  .headerHome > div > div > a > #user{
+      /*width: 50%;*/
+      float: left;
+      /*height: 48px;*/
+  }
+  .headerHome > div > div > #search{
+      /*width: 50%;*/
+      float: left;
+      /*height: 48px;*/
+     display: block;
+  }
+
+  .headerHome > div > div > input{
+    /*width: 25%;
+    float: left;
+    height: 25px;
+    margin-top: 20px;*/
+    float: left;
+    display: none;
+  }
+  .headerHome > div > div > img#closeSearch{
+    float: left;
+    display: none;
+   
+  }
+
+  main{
+      width: 100%;
+      float: left;
+  }
+  main > div > div > a > .cat{
+      /*width: 100%;*/
+      float: left;
+  }
+  main > div > div > a > .cat > div{
+      /*width: 30%;*/
+      margin-left: 45%;
+      margin-top: 20px;
+      transition: 3s;
+  }
+  main > div > div > a > .cat > h1{
+      text-align: center;
+      margin-left: 5%;
+      color: black; 
+      font-size: 150%; 
+  }
+  .icon-user:before {
+  content: "\e971";
+  font-size: 250%;
+  }
+  .icon-search:before {
+    content: "\e986";
+    font-size: 250%;
+  }
+  .icon-book:before {
+  content: "\e91f";
+  font-size: 300%;
 }
-div#the:hover > img{
-    transform: rotateY(360deg);
-    transition: 3s;
+.icon-theatre:before {
+  content: "\e921";
+  font-size: 300%;
 }
-div#pho:hover > img{
-    transform: rotateX(360deg);
-    transition: 3s;
+.icon-camera:before {
+  content: "\e90f";
+  font-size: 300%;
 }
-div#pai:hover > img{
-    transform: scale(-1);
-    transition: 3s;
+.icon-pencil2:before {
+  content: "\e906";
+  font-size: 300%;
 }
-div#mus:hover > img{
-    transform: skew(180deg);
-    transition: 3s;
+.icon-music:before {
+  content: "\e911";
+  font-size: 300%;
 }
-div#cin:hover > img{
-    transform: rotate(-360deg);
-    transition: 3s;
+.icon-video-camera:before {
+  content: "\e914";
+  font-size: 300%;
 }
-} /* Cierre media querie móviles */
+}
+ /* Cierre media querie móviles */
 
  /* Apertura media querie tablets */
-@media screen and (max-width: 480px){
-.wrapper{
-	width: 400px;
-    margin: 0 auto;
-}
-.bloque > div.topic > a > h2{
-		font-size: 1em;
-}
-}
- /* Cierre media querie tablets */
 
-@media screen and (min-width: 480px) and (max-width: 960px){
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+  .wrapper{
+    width: 770px;
+    margin: 0 auto;
+  }
+  .bloque > div.topic > a > h2{
+      font-size: 1em;
+  }
+  .headerHome > div > div > a > #user{
+  float: left;
+  margin-top: 20px;
+  /*height: 75px;
+  width: 25%;*/
+  }
+  .headerHome > div > div > #search{
+  display: none;
+  }
+  .headerHome > div > div > input{
+    float: left;
+    display: block;
+    margin-top: 25px;
+    /*width: 25%;
+    height: 25px;*/
+  }
+  .headerHome > div > div > img#closeSearch{
+  display: none;
+  }
+  main > div > div > a > .cat > div{
+      /*width: 30%;*/
+      margin-left: 45%;
+      margin-top: 20px;
+      transition: 3s;
+  }
+  main > div > div > a > .cat > h1{
+      text-align: center;
+      margin-left: 5%;
+      color: black; 
+      font-size: 200%; 
+  }
+
+  .icon-user:before {
+  content: "\e971";
+  font-size: 350%;
+  }
+  .icon-book:before {
+  content: "\e91f";
+  font-size: 450%;
+}
+.icon-theatre:before {
+  content: "\e921";
+  font-size: 450%;
+}
+.icon-camera:before {
+  content: "\e90f";
+  font-size: 450%;
+}
+.icon-pencil2:before {
+  content: "\e906";
+  font-size: 450%;
+}
+.icon-music:before {
+  content: "\e911";
+  font-size: 450%;
+}
+.icon-video-camera:before {
+  content: "\e914";
+  font-size: 450%;
+}
+} 
+ /* Cierre media querie tablets */
+/* Apertura media querie desktop */
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
 .wrapper{
-	width: 550px;
+  width: 1000px;
   margin: 0 auto;
 }
 main > a > .cat{
-  width: 50%;
+  /*width: 50%;*/
   float: left;
 }
-.headerHome > a > #logo{
-	max-width: 30%;
-	float: left;
-}
-.headerHome > a > #user{
-  width: 25%;
+.headerHome > div > div > a > #logo{
+  /*max-width: 30%;*/
   float: left;
-	height: 75px;
-	}
-	.headerHome > #search{
-	display: none;
-	}
-	.headerHome > input{
-    width: 10%;
+}
+.headerHome > div > div > a > #user{
+  float: left;
+  margin-top: 20px;
+  /*height: 75px;
+  width: 25%;*/
+  }
+  .headerHome > div > div > #search{
+  display: none;
+  }
+  .headerHome > div > div > input{
     float: left;
-    height: 25px;
-	display: block;
-	margin-top: 20px;
-	}
-	.headerHome > .cajitaEspesial{
-		width: 25%;
-	}
-	
+    display: block;
+    margin-top: 25px;
+    /*width: 10%;
+    height: 25px;*/
+  }
+  .headerHome > div > div > img#closeSearch{
+  display: none;
+  }
+  main > div > div > a > .cat > h1{
+      text-align: center;
+      margin-left: 5%;
+      color: black; 
+      font-size: 250%; 
+  }
+  /*.headerHome > .cajitaEspesial{
+    width: 25%;
+  }*/
+  .icon-user:before {
+    content: "\e971";
+    font-size: 350%;
+  }
+  .icon-book:before {
+  content: "\e91f";
+  font-size: 550%;
 }
-@media screen and (min-width: 961px) and (max-width: 2000px){
-	.wrapper{
-	width: 960px;
+.icon-theatre:before {
+  content: "\e921";
+  font-size: 550%;
+}
+.icon-camera:before {
+  content: "\e90f";
+  font-size: 550%;
+}
+.icon-pencil2:before {
+  content: "\e906";
+  font-size: 550%;
+}
+.icon-music:before {
+  content: "\e911";
+  font-size: 550%;
+}
+.icon-video-camera:before {
+  content: "\e914";
+  font-size: 550%;
+}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 2000px){
+  .wrapper{
+    width: 1000px;
     margin: 0 auto;
    
-	}
-	
-	main > a > .cat{
-    width: 30%;
+  }
+  main > a > .cat{
+    /*width: 30%;*/
     float: left;
-}
-	
-	
-	.headerHome > a > #logo{
-	max-width: 30%; 
+  }
+  .headerHome > div > div > a > #logo{
+    /*max-width: 30%; */
     float: left;
-	}
-	.headerHome > a > #user{
-    width: 25%;
+  }
+  .headerHome > div > div > a > #user{
     float: left;
-	height: 75px;
-	}
-	.headerHome > #search{
-	display: none;
-	}
-	.headerHome > input{
-    width: 10%;
+    margin-top: 20px;
+    /*width: 25%;*/
+    /*height: 75px;*/
+  }
+  .headerHome > div > div > #search{
+    display: none;
+  }
+  .headerHome > div > div > input{
+    display: block;
     float: left;
-    height: 25px;
-	display: block;
-	margin-top: 20px;
+    /*width: 10%;
+    height: 25px;*/
+    margin-top: 25px;
+  }
+  .headerHome > div > div > img#closeSearch{
+  display: none;
+  }
+  main > div > div > a > .cat > h1{
+      text-align: center;
+      margin-left: 5%;
+      color: black; 
+      font-size: 250%; 
+  }
+/*.headerHome > .cajitaEspesial{
+  width: 25%;
+}*/
+.icon-user:before {
+    content: "\e971";
+    font-size: 350%;
+
+  }
+  .icon-book:before {
+  content: "\e91f";
+  font-size: 550%;
 }
-.headerHome > .cajitaEspesial{
-	width: 25%;
+.icon-theatre:before {
+  content: "\e921";
+  font-size: 550%;
+}
+.icon-camera:before {
+  content: "\e90f";
+  font-size: 550%;
+}
+.icon-pencil2:before {
+  content: "\e906";
+  font-size: 550%;
+}
+.icon-music:before {
+  content: "\e911";
+  font-size: 550%;
+}
+.icon-video-camera:before {
+  content: "\e914";
+  font-size: 550%;
 }
 }
+
  /* Cierre media querie desktop */
