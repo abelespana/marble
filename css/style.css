@@ -763,7 +763,7 @@ div.wrapper > img{
 
 @media screen and (min-width: 992px) and (max-width: 1200px){
 .wrapper{
-  width: 960px;
+  width: 1000px;
   margin: 0 auto;
 }
 main > a > .cat{
@@ -834,17 +834,14 @@ main > a > .cat{
 
 @media screen and (min-width: 1200px) and (max-width: 2000px){
   .wrapper{
-  width: 960px;
+    width: 1000px;
     margin: 0 auto;
    
   }
-  
   main > a > .cat{
     /*width: 30%;*/
     float: left;
-}
-  
-  
+  }
   .headerHome > div > div > a > #logo{
     /*max-width: 30%; */
     float: left;
