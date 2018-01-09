@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 @font-face {
@@ -151,6 +152,16 @@
     url('../fonts/icomoon3.svg?dk5ln9#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
+=======
+/*Vinculación a la fuente que vamos a usar en titulares */
+@font-face {
+	font-family: CaviarDreams;
+	src: url('../fonts/CaviarDreamsl.eot');
+	src: local('☺'),
+        url('../fonts/CaviarDreams.woff') format('woff'), url('../fonts/CaviarDreams.ttf') format('truetype'), url('../fonts/CaviarDreamsl.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+>>>>>>> AbelEnero
 }
 
 [class^="icon3-"], [class*=" icon3-"] {
@@ -258,9 +269,9 @@ nav > .search{
   margin-top: 20px;
   margin-right: 2%;
 }
-
 .wrapper{
     width: 480px;
+    width: 960px;
     margin: 0 auto;
 }
 
@@ -271,33 +282,34 @@ nav > .search{
 /* Movidas de Blanca */
 
 /* ---Category.html--- */
+=======
+
+}
+/*Fin del código de todos*/
+/* Movidas de Blanca */
+>>>>>>> AbelEnero
 .theme{
    width: 100%;
   margin: 0 auto;
 	 float: left;
 }
-
 div.theme > h1{
     text-align: center;
 }
-
 div.theme > img{
     max-width: 100%;
     margin-left: 50%; /*preguntar al profe*/
 }
-
 .bloque{
   width: 100%;
 	float: left;
 }
-
 .user{
     width: 15%;
     float: left;
     margin-right: 3%;
     max-width: 100%;
 }
-
 .time {
     color: grey;
     float: left;
@@ -307,35 +319,30 @@ div.theme > img{
     width: 72%;
     float: left;
 }
-
 .fecha{
     color: grey;
 }
-
 .info{
     width: 10%;
     float: left;
 }
-
 .flechas{
     height: 127px;
 }
-
 .stats{
     width: 33%;
     display: block;
     margin: 0 auto;
 }
-
 .text-stats{
     display: block;
     margin: 0 auto;
 }
-
 div.flechas > a{
     text-decoration: none;
     text-align: center;
 }
+<<<<<<< HEAD
 
 
 /* ---detalle1.html--- */
@@ -363,17 +370,31 @@ div.flechas > a{
 	width: 10%;
   margin-left: 7%;
   margin-right: 3%;
-}
+=======
+.debate-title{
+	width: 100%;
+	float: left;
 
+}
+.debate-title > img{
+	float: left;
+	max-width: 100%;
+	margin-top: 8%;
+}
+.debate-title > h1 {
+	float: left;
+	width: 80%;
+>>>>>>> AbelEnero
+}
 .debate-main{
 	width: 100%;
 	float:left;
 }
-
 .user-debate{
 	width: 20%;
 	float: left;
 }
+<<<<<<< HEAD
 
 .user-debate > a > img{
 float: left;
@@ -381,17 +402,19 @@ max-width: 100%;
 
 }
 .debate-main > .user-debate > h4{
+=======
+.debate-main > .user-debate > p{
+>>>>>>> AbelEnero
 	margin-left: 15px;
 	margin-bottom: 0;
 	margin-top: 0;
 }
-
 .comment{
   width: 80%;
   float: left;
 }
-
 .debate-main > .comment > .comment1 > p{
+<<<<<<< HEAD
   margin-top: 10%;
 } 
 
@@ -399,12 +422,19 @@ max-width: 100%;
 	 float: right; 
    width: 50%;
    margin-left: 50%;
+=======
+	margin-top: 10%;
+}
+.social-profile-icons{
+	width: 100%;
+>>>>>>> AbelEnero
 }
 .social-profile-icons > ul > li{
   float: right;
   list-style-type: none;
   margin-left: 6%;
 }
+<<<<<<< HEAD
 
 .social-profile-icons > ul > li > a{
   text-decoration: none;
@@ -413,8 +443,15 @@ max-width: 100%;
 #respondComment{
   border-radius: 10px;
   padding: 10px;
+=======
+.comment > .social-profile-icons > ul > li > a > img{
+	width: 30px;
+	float: left;
 }
-
+.comment > .social-profile-icons > ul{
+	float: right;
+>>>>>>> AbelEnero
+}
 .answers{
   width: 90%;
 	margin-left: 10%;
@@ -422,6 +459,7 @@ max-width: 100%;
 	float: left;
 }
 
+<<<<<<< HEAD
 
 
 /*Fin del código de Blan*/
@@ -430,6 +468,9 @@ max-width: 100%;
 
 
 
+=======
+/* Fin del código de Blanca */
+>>>>>>> AbelEnero
 
 /*Inicio del código de Mikel*/
 }
@@ -441,7 +482,7 @@ max-width: 100%;
     width: 50%;
     float: left;
     max-height: 75px;
-    
+
 }
 
 .headerHome > a > #user{
@@ -477,11 +518,11 @@ main > div > div > a > .cat > div{
 main > div > div > a > .cat > h1{
    text-align: center;
     margin-left: 5%;
-    color: black;  
+    color: black;
 }
 main > div > div > a > #lit{
     background-color: aquamarine;
-    
+
 }
 main > div > div > a > #the{
     background-color: pink;
@@ -528,7 +569,50 @@ div#cin:hover > div{
 
 /*Código de Abel */
 
-#headerProfile {
+#modalWindow {
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0,0,0,0.7);
+}
+
+#modalWindowContent {
+	background-color:aquamarine;
+	padding:15px;
+	width:calc(24% - 15px);
+	margin-top:200px;
+	margin-left:38%;
+}
+
+#modalWindowContent > img {
+	width:75%;
+	margin-left:12.5%;
+	margin-bottom:18px;
+}
+
+.modalWindowField {
+	width:70%;
+	margin-left:15%;
+	margin-bottom:10px;
+	margin-right:15%;
+	font-size:0.8em;
+}
+
+.marginless {
+	margin-right:0%;
+}
+
+.modalWindowFieldError {
+	color:red;
+	font-size:1em;
+	font-style:italic;
+}
+
+#profileHeader {
     width:100%;
     float:left;
     border-bottom-style:solid;
@@ -537,16 +621,15 @@ div#cin:hover > div{
     margin-bottom:15px;
 }
 
-#headerProfile > img {
-    width:50%;
-    margin-left:25%;
-    margin-bottom:-120px;
-    margin-top:-80px;
+#profileHeader > img {
+    width:25%;
+    margin-left:37.5%;
+		margin-bottom:-20px;
 }
 
-#headerProfile > h1 {
+#profileHeader > h1 {
     text-align:center;
-    margin-bottom:50px;
+    margin-bottom:20px;
 
 }
 #profileContent {
@@ -570,22 +653,37 @@ div#cin:hover > div{
 #profileTabSwitcher li.notselected {
     opacity:0.6 ;
 }
+#profileTabSwitcher li.notselected:active{
+	opacity:1;
+}
 
+<<<<<<< HEAD
 /* ul li {
+=======
+ul#profileTabSwitcher li {
+>>>>>>> AbelEnero
     list-style-type:none;
-    width:33.1%;
+    width:33.33%;
     float:left;
+<<<<<<< HEAD
     border-right-style:solid;
     border-right-width:1px;
     border-right-color:white;
     background-color:grey; ABELLLLL LO HE COMENTADO, TIENES QUE SER MÁS ESPECÍFICO
+=======
+		background-color:grey;
+>>>>>>> AbelEnero
     text-align:center;
     color:white;
     height:30px;
     line-height:30px; */
 }
 
+<<<<<<< HEAD
 /* ul > li > a {
+=======
+ul#profileTabSwitcher > li > a {
+>>>>>>> AbelEnero
     text-decoration:none;
     color:white;
 } */
@@ -598,11 +696,34 @@ div#cin:hover > div{
     margin-top:4px;
 }
 
+#profileUserInfo input {
+	margin-bottom:15px;
+}
+
+#profileUserInfo > .barraSeparadora {
+	width:100%;
+	background-color:black;
+	height:2px;
+	display:none;
+	margin: 15px 0;
+}
+
+#profileUserVisited, #profileUserVoted, #profileUserComented {
+	line-height:35px;
+	display:none;
+}
+
+.userInfoDetailed {
+	margin-bottom:10px;
+	display:none;
+}
+
+/* Código de Róber */
 .columnLeft{
     width: 50%;
     float: left;
     text-align: center;
-     
+
 }
 .columnRight {
     width: 50%;
@@ -620,11 +741,18 @@ div#cin:hover > div{
 }
 
 
+<<<<<<< HEAD
 /* TODO: Check this */
 /* 
 div.wrapper > img{
     width: 300px;
 } */
+=======
+/* Qué demonios era esto */
+div.wrapper > img{
+    width: 300px;
+}
+>>>>>>> AbelEnero
 /* Qué demonios era esto */
 
 
@@ -634,10 +762,8 @@ div.wrapper > img{
 .wrapper{
     width: 320px;
     margin: 0 auto;
-    
 }
-    
-    .headerHome{
+.headerHome{
    width: 100%;
     float: left;
 }
@@ -645,7 +771,6 @@ div.wrapper > img{
     width: 100%;
     float: left;
     max-height: 75px;
-    
 }
 .headerHome > a > #user{
     width: 50%;
@@ -659,7 +784,7 @@ div.wrapper > img{
 }
 .headerHome > input{
 	display: none;
-	}
+}
 
 main{
     width: 100%;
@@ -678,11 +803,10 @@ main > a > .cat > img{
 main > a > .cat > h1{
    text-align: center;
     margin-left: 5%;
-    color: black;  
+    color: black;
 }
 main > a > #lit{
     background-color: aquamarine;
-    
 }
 main > a > #the{
     background-color: pink;
@@ -699,7 +823,6 @@ main > a > #mus{
 main > a > #cin{
     background-color: cornflowerblue;
 }
-
 div#lit:hover > img{
     transform: rotateZ(360deg);
     transition: 3s;
@@ -755,51 +878,49 @@ main > a > .cat{
   width: 25%;
   float: left;
 	height: 75px;
-	}
-	.headerHome > #search{
+}
+.headerHome > #search{
 	display: none;
-	}
-	.headerHome > input{
-    width: 10%;
-    float: left;
-    height: 25px;
+}
+.headerHome > input{
+  width: 10%;
+  float: left;
+  height: 25px;
 	display: block;
 	margin-top: 20px;
-	}
-	.headerHome > .cajitaEspesial{
-		width: 25%;
-	}
-	
 }
+.headerHome > .cajitaEspesial{
+	width: 25%;
+}
+}
+
+/* Apertura media querie desktop */
 @media screen and (min-width: 961px) and (max-width: 2000px){
-	.wrapper{
+.wrapper {
 	width: 960px;
-    margin: 0 auto;
-   
-	}
-	
-	main > a > .cat{
-    width: 30%;
-    float: left;
+  margin: 0 auto;
 }
-	
-	
-	.headerHome > a > #logo{
-	max-width: 30%; 
-    float: left;
-	}
-	.headerHome > a > #user{
-    width: 25%;
-    float: left;
+
+main > a > .cat{
+  width: 30%;
+  float: left;
+}
+.headerHome > a > #logo{
+	max-width: 30%;
+  float: left;
+}
+.headerHome > a > #user{
+  width: 25%;
+  float: left;
 	height: 75px;
-	}
-	.headerHome > #search{
+}
+.headerHome > #search{
 	display: none;
-	}
-	.headerHome > input{
-    width: 10%;
-    float: left;
-    height: 25px;
+}
+.headerHome > input{
+  width: 10%;
+  float: left;
+  height: 25px;
 	display: block;
 	margin-top: 20px;
 }
