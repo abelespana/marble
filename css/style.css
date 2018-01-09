@@ -1,6 +1,6 @@
 /*Vinculación a la fuente que vamos a usar en titulares */
 
-@font-face {
+/*@font-face {
 	font-family: CaviarDreams;
 	src: url('../fonts/CaviarDreamsl.eot');
 	src: local('☺'), 
@@ -9,7 +9,7 @@
 
 	font-weight: normal;
 	font-style: normal;
-}
+}*/
 
 @font-face {
   font-family: 'home';
@@ -19,7 +19,8 @@
     url('../fonts/home.woff?48gxbd') format('woff'),
     url('../fonts/home.svg?48gxbd#icomoon') format('svg');
   font-weight: normal;
-  font-style: normal;
+  font-style: normal ;
+  
 
 }
 
@@ -27,6 +28,8 @@
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'home' !important;
   speak: none;
+  font-size: 550%;
+  color: black;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -38,23 +41,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-pencil2:before {
-  content: "\e906";
+
+.icon-book:before {
+  content: "\e91f";
+}
+.icon-theatre:before {
+  content: "\e921";
 }
 .icon-camera:before {
   content: "\e90f";
+}
+.icon-pencil2:before {
+  content: "\e906";
 }
 .icon-music:before {
   content: "\e911";
 }
 .icon-video-camera:before {
   content: "\e914";
-}
-.icon-book:before {
-  content: "\e91f";
-}
-.icon-theatre:before {
-  content: "\e921";
 }
 .icon-user:before {
   content: "\e971";
@@ -237,7 +241,8 @@ div.flechas > a{
     float: left;
     max-height: 75px;
     
-}
+}*/
+/*
 .headerHome > a > #user{
     width: 25%;
     float: left;
