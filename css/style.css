@@ -423,7 +423,18 @@ div.wrapper > img{
     width: 300px;
 }
 
-/*@media screen (min-width: @screen-sm-min){
+
+@media(max-width: @screen-xs-max){
+
+.wrapper{
+    width: 480px;
+    margin: 0 auto;
+    
+}
+}
+
+/*
+@media screen (min-width: @screen-sm-min){
    
     .wrapper{
     width: 320px;
@@ -518,9 +529,9 @@ div#cin:hover > img{
     transform: rotate(-360deg);
     transition: 3s;
 }
-}*/
+}
 
-/*@media screen and (min-width: 480px) and (max-width: 960px){
+@media screen and (min-width: 480px) and (max-width: 960px){
 	
 	
 	.wrapper{
@@ -592,5 +603,5 @@ div#cin:hover > img{
 	.headerHome > .cajitaEspesial{
 		width: 25%;
 	}
-}*/
-	
+}
+	*/
