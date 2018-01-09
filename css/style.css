@@ -1,13 +1,13 @@
 /*Vinculación a la fuente que vamos a usar en titulares */
 
-@font-face {
+/*@font-face {
 	font-family: CaviarDreams;
 	src: url('../fonts/CaviarDreamsl.eot');
 	src: local('☺'), 
         url('../fonts/CaviarDreams.woff') format('woff'), url('../fonts/CaviarDreams.ttf') format('truetype'), url('../fonts/CaviarDreamsl.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
-}
+}*/
 
 @font-face {
   font-family: 'icomoon';
@@ -18,12 +18,17 @@
     url('../fonts/icomoon.svg?dk5ln9#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
+  font-style: normal ;
+  
+
 }
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: none;
+  font-size: 550%;
+  color: black;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -35,29 +40,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-folder:before {
-  content: "\e900";
+
+.icon-book:before {
+  content: "\e91f";
 }
-.icon-lock:before {
-  content: "\e901";
-}
-.icon-lock-open:before {
-  content: "\e902";
-}
-.icon-whistle:before {
-  content: "\e903";
-}
-.icon-thumb-up:before {
-  content: "\e904";
-}
-.icon-thumb-down:before {
-  content: "\e905";
-}
-.icon-link:before {
-  content: "\e906";
-}
-.icon-tv:before {
-  content: "\e907";
+.icon-theatre:before {
+  content: "\e921";
 }
 .icon-camera:before {
   content: "\e908";
@@ -83,10 +71,10 @@
 .icon-gamepad:before {
   content: "\e90f";
 }
-.icon-trashcan:before {
-  content: "\e910";
+.icon-pencil2:before {
+  content: "\e906";
 }
-.icon-FB:before {
+.icon-music:before {
   content: "\e911";
   color: #3b5998;
 }
@@ -100,12 +88,6 @@
 }
 .icon-home:before {
   content: "\e914";
-}
-.icon-pushpin:before {
-  content: "\e946";
-}
-.icon-bubble:before {
-  content: "\e96b";
 }
 .icon-user:before {
   content: "\e971";
@@ -160,14 +142,6 @@ nav > .logo > a > img{
 	width: 200px;
 	float: left;
 }
-
-nav > .add > img{
-    width: 50px;
-    margin-left: 33%;
-    float: left;
-    margin-right: 2%;
-}
-
 nav > .search > a > img{
 	width: 50px;
 	float: right;
@@ -328,7 +302,8 @@ div.flechas > a{
     float: left;
     max-height: 75px;
     
-}
+}*/
+/*
 .headerHome > a > #user{
     width: 25%;
     float: left;
