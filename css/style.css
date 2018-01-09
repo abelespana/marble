@@ -379,8 +379,8 @@ div.flechas > a{
     float: left;
     max-height: 75px;
     
-}*/
-/*
+}
+
 .headerHome > a > #user{
     width: 25%;
     float: left;
@@ -401,62 +401,62 @@ main{
     width: 100%;
     float: left;
 }
-main > a > .cat{
+main > div > div > a > .cat{
     width: 50%;
     float: left;
 }
-main > a > .cat > img{
+main > div > div > a > .cat > div{
     width: 30%;
     margin-left: 35%;
     margin-top: 20px;
     transition: 3s;
 }
-main > a > .cat > h1{
+main > div > div > a > .cat > h1{
    text-align: center;
     margin-left: 5%;
     color: black;  
 }
-main > a > #lit{
+main > div > div > a > #lit{
     background-color: aquamarine;
     
 }
-main > a > #the{
+main > div > div > a > #the{
     background-color: pink;
 }
-main > a > #pho{
+main > div > div > a > #pho{
     background-color: orange;
 }
-main > a > #pai{
+main > div > div > a > #pai{
     background-color: mediumpurple;
 }
-main > a > #mus{
+main > div > div > a > #mus{
     background-color: forestgreen;
 }
-main > a > #cin{
+main > div > div > a > #cin{
     background-color: cornflowerblue;
 }
 
-div#lit:hover > img{
+div#lit:hover > div{
     transform: rotateZ(360deg);
     transition: 3s;
 }
-div#the:hover > img{
+div#the:hover > div{
     transform: rotateY(360deg);
     transition: 3s;
 }
-div#pho:hover > img{
+div#pho:hover > div{
     transform: rotateX(360deg);
     transition: 3s;
 }
-div#pai:hover > img{
+div#pai:hover > div{
     transform: scale(-1);
     transition: 3s;
 }
-div#mus:hover > img{
+div#mus:hover > div{
     transform: skew(180deg);
     transition: 3s;
 }
-div#cin:hover > img{
+div#cin:hover > div{
     transform: rotate(-360deg);
     transition: 3s;
 }
