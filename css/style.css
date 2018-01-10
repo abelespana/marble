@@ -449,29 +449,37 @@ max-width: 100%;
 
 /* Modal Header */
 .modal-header {
-    padding: 2px 16px;
-    background-color: blue;
+    padding: 2px 16px; 
+    background-color: aqua;
     color: white;
 }
 
 /* Modal Body */
-.modal-body {padding: 2px 16px;}
+.modal-body {padding: 2px 16px;
+height: 150px;
+}
+
+.modal-body > input{
+  height: 130px;
+  margin-top: 5px;
+  border:0;
+}
 
 /* Modal Footer */
 .modal-footer {
     padding: 2px 16px;
-    background-color: blue;
+    background-color: aqua;
     color: white;
 }
 
 /* Modal Content */
 .modal-content {
-    position: relative;
+    position: absolute;
     background-color: white;
     margin: auto;
     padding: 0;
     border: 1px solid #888;
-    width: 80%;
+    width: 50%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     animation-name: animatetop;
     animation-duration: 0.4s;
@@ -484,6 +492,12 @@ max-width: 100%;
     to {top: 0; opacity: 1}
 }
 
+
+#PiePaginaBlanca{
+ 
+  bottom: 0;
+  margin-left: 50%;
+}
 
 /*Fin del código de Blan*/
 
@@ -499,7 +513,7 @@ max-width: 100%;
     /*width: 50%;*/
     /*max-height: 75px;*/
     
-}*/
+}
 /*
 .headerHome > a > #user{
     width: 25%;
@@ -510,7 +524,7 @@ max-width: 100%;
 .headerHome > div > div > #search{
     float: left;
     height: 48px;
-}*/
+}
 .headerHome > input{
 	display: none;
 }
@@ -549,47 +563,52 @@ main > div > div > a > .cat > h1{
 }
 
 main > div > div > a > #lit{
-  background-color: aquamarine;
-
+  background-color: aqua;
+  border: 3px solid black;
 }
 main > div > div > a > #the{
   background-color: pink;
+  border: 3px solid black;
 }
 main > div > div > a > #pho{
   background-color: orange;
+  border: 3px solid black;
 }
 main > div > div > a > #pai{
   background-color: mediumpurple;
+  border: 3px solid black;
 }
 main > div > div > a > #mus{
   background-color: forestgreen;
+  border: 3px solid black;
 }
 main > div > div > a > #cin{
   background-color: cornflowerblue;
+  border: 3px solid black;
 }
 
 div#lit:hover > div{
-  transform: rotateZ(360deg);
+  transform: scale(1.5);
   transition: 3s;
 }
 div#the:hover > div{
-  transform: rotateY(360deg);
+  transform: scale(1.5);
   transition: 3s;
 }
 div#pho:hover > div{
-  transform: rotateX(360deg);
+  transform: scale(1.5);
   transition: 3s;
 }
 div#pai:hover > div{
-  transform: scale(-1);
+  transform: scale(1.5);
   transition: 3s;
 }
 div#mus:hover > div{
-  transform: skew(180deg);
+  transform: scale(1.5);
   transition: 3s;
 }
 div#cin:hover > div{
-  transform: rotate(-360deg);
+  transform: scale(1.5);
   transition: 3s;
 }
 /*Fin del código de Mikel*/
@@ -875,6 +894,10 @@ div.wrapper > a > img{
   main{
       width: 100%;
       float: left;
+  }
+  main > div > div > h3{
+
+    font-size: 120%;
   }
   main > div > div > a > .cat{
       /*width: 100%;*/
