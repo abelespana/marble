@@ -35,7 +35,7 @@ function cerrarModal() {
 	if (llenameModal != "") {
 
 		document.getElementById("modalRespuesta").style.display="none";
-		alert("Comentario enviado");
+		
 	}
 	else{
 		alert("Campo vacío");
@@ -43,7 +43,7 @@ function cerrarModal() {
 
 	/* en el elemento p de comment1 dentro de comment , tiene que meter el valor del formulario, que es el  texto que el usuario ha rellenado y que está en la varialbe llenameModal*/
 
-	document.getElementsByTagName()
+	document.getElementById("abelSay").innerHTML=llenameModal;
 }
 
 /* esto es para ver una alerta y que visiblemente veas si funciona lo que estas haciendo:
