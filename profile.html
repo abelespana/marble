@@ -1,41 +1,87 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Mi perfil - Marble</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+  <meta charset="UTF-8">
+  <title>Mi perfil - Marble</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
 <div class="wrapper">
-    <nav>
-        <div class="logo"><a href="index.html"><img src="img/logoMarble.png" alt="LogoMarble"></a></div>
-        <div class="search"><a href=""><img src="img/search.svg" alt="search"></a></div>
+  <!-- Ventana modal de login  -->
+  <div id="modalWindow">
+    <div id="modalWindowContent">
+      <img src="img/logoMarble.png" alt="LogoMarble">
+      <input id="username" class="modalWindowField" type="textarea" name="" value="" placeholder="Nombre de usuario">
+      <input id="password" class="modalWindowField" type="password" name="password" placeholder="Contraseña">
+      <a class="modalWindowField" href="register.html">¿Nuevo usuario?</a>
+      <input type="submit" value ="Entrar" onclick="CheckUser()">
+      <p id="errorMessage" class="modalWindowField modalWindowFieldError"></p>
+    </div>
+  </div>
+  <!-- Menú de navegación común  -->
+  <nav id="navProfile">
+    <div class="logo">
+      <a href="index.html"><img src="img/logoMarble.png" alt="LogoMarble"></a>
+    </div>
+    <div class="search">
+      <a href="">
+        <img src="img/search.svg" alt="search">
+      </a>
+    </div>
 	</nav>
-       
-    <header id="headerProfile">
-        <img src="img/userPic.svg" alt="Icono no carga">
-        <h1>@abelespana's profile</h1>
-    </header>
-    <main id="profileContent">
-    <!-- Barra de navegación entre pestañas del perfil-->
-        <ul id="profileTabSwitcher">
-            <li> <a href="" alt="voted">Más votado</a></li>
-            <li class="notselected"> <a href="" alt="visited">Más visitado</a></li>
-            <li class="notselected"> <a href="" alt="commented">Más comentado</a></li>
-        </ul>
-
-        <article id="profileText">    
-        <p><strong>Nombre de usuario:</strong> abelespana <small><a href="">(Cambiar)</a></small></p>
-        <p><strong>Contraseña</strong> ********* <small><a href="">(Cambiar)</a></small></p>
-        <strong>Cuéntanos algo más sobre tí:</strong>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta molestiae similique excepturi dolor deleniti magnam a eum tenetur fugit debitis quia fugiat, magni natus beatae aut molestias nam ullam ratione.</p>
-          
-           
-           
-            
-        </article>
-    </main>
+<!-- Menú con imágen de perfil y username  -->
+  <header id="profileHeader">
+    <img id="profilePic" src="img/userPic.svg" alt="Icono no carga">
+    <h1 id="headerUsername"></h1>
+</header>
+<!-- Contenido del perfil  -->
+<main id="profileContent">
+<!-- Barra de navegación entre pestañas del perfil-->
+  <ul id="profileTabSwitcher">
+    <li id="voted" class="notselected" onclick="ShowVoted()">Más votado</li>
+    <li class="notselected" onclick="ShowVisited()">Más visitado</li>
+    <li class="notselected" onclick="ShowComented()">Más comentado</li>
+  </ul>
+<!-- Elementos del perfil  -->
+  <article id="profileText">
+    <div id="profileUserInfo">
+      <p class="userInfoDetailed" id="myName"><strong>Nombre:</strong></p>
+      <p class="userInfoDetailed" id="myNickname"><strong>Nombre de usuario:</strong></p>
+      <p class="userInfoDetailed" id="whenRegistered"><strong>Usuario desde:</strong></p>
+      <p class="userInfoDetailed" id="myAge"><strong>Edad:</strong></p>
+      <p class="userInfoDetailed" id="myCountry"><strong>País:</strong></p>
+      <div id="barraSeparadora" class="barraSeparadora"></div>
+    </div>
+    <div id="profileUserVoted">
+      <a href="detalle1.html">Artículo más votado #1</a><br>
+      <a href="detalle1.html">Artículo más votado #2</a><br>
+      <a href="detalle1.html">Artículo más votado #3</a><br>
+      <a href="detalle1.html">Artículo más votado #4</a><br>
+      <a href="detalle1.html">Artículo más votado #5</a><br>
+      <a href="detalle1.html">Artículo más votado #6</a><br>
+    </div>
+    <div id="profileUserVisited">
+      <a href="detalle1.html">Artículo más visitado #1</a><br>
+      <a href="detalle1.html">Artículo más visitado #2</a><br>
+      <a href="detalle1.html">Artículo más visitado #3</a><br>
+      <a href="detalle1.html">Artículo más visitado #4</a><br>
+      <a href="detalle1.html">Artículo más visitado #5</a><br>
+      <a href="detalle1.html">Artículo más visitado #6</a><br>
+    </div>
+    <div id="profileUserComented">
+      <a href="detalle1.html">Artículo más comentado #1</a><br>
+      <a href="detalle1.html">Artículo más comentado #2</a><br>
+      <a href="detalle1.html">Artículo más comentado #3</a><br>
+      <a href="detalle1.html">Artículo más comentado #4</a><br>
+      <a href="detalle1.html">Artículo más comentado #5</a><br>
+      <a href="detalle1.html">Artículo más comentado #6</a><br>
+    </div>
+</article>
+</main> <!-- Fin del contenido del perfil -->
 </div> <!-- Fin del wrapper-->
+<script src="js/ourData.js"></script>
+<script src="js/checkUser.js"></script>
+<script src="js/profile-interaction.js"></script>
 </body>
 </html>

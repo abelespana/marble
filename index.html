@@ -3,66 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
-    <link rel="stylesheet" href="css/style.css" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
     
-    <div class="wrapper">
+  <div class="wrapper">
+
         <header class="headerHome">
-            <a href="home.html">
-                <img src="img/logoMarble.png" alt="marble" id="logo">
-            </a>
-            <a href="profile.html">       
-                <img src="img/userPic.svg" alt="user" id="user">
-            </a>    
-            <input type="search" class="cajitaEspesial">
-            <input type="submit" value="Buscar">
-            <img src="img/search.svg" alt="buscar" id="search">
-           
+
+          <div class="container-fluid">
+
+            <div class="row">
+
+              <a href="home.html">
+
+                  <img src="img/logoMarble.png" alt="marble" class="col-xs-6 col-sm-4 col-md-3 col-lg-3" id="logo">
+
+              </a>
+
+              <a href="profile.html"> 
+
+                  <div class="icon-user col-xs-1 col-sm-1 col-md-1 col-lg-1 col-sm-offset-1 col-md-offset-2 col-lg-offset-2" id="user"></div>
+
+              </a>  
+                <div class="icon-search col-xs-1 col-xs-offset-2" id="search"></div>
+
+                <input type="search" class="cajitaEspesial col-xs-9 col-sm-3 col-md-3 col-lg-3 col-sm-offset-2 col-md-offset-2 col-lg-offset-2" id="searchBox">
+
+                <img src="img/equis.png" alt="close" class="col-xs-3" id="closeSearch">
+
+                <input type="submit" value="Buscar" class="buttonSearch col-sm-1 col-md-1 col-lg-1" id="buttonSearch">
+
+            </div>
+
+          </div>
+         
         </header>
         
-        <main>
-          
-        <a href="category.html">
-          <div class="cat" id="lit">
-              <img src="img/book.png" alt="literatura">
+    <main>
+
+      <div class="container-fluid">
+
+        <div class="row">
+
+          <a href="category.html">
+                  
+            <div class="cat col-xs-12 col-sm-6 col-md-4 col-lg-4" id="lit">
+
+              <div class="icon-book" id="icon-book" alt="literatura"></div>
+
               <h1>Literatura</h1>
-          </div>
-        </a>
-        <a href="category.html">  
-          <div class="cat" id="the">
-              <img src="img/theater.png" alt="teatro">
-              <h1>Teatro</h1>
-          </div>
-        </a>
-        <a href="category.html">  
-          <div class="cat" id="pho">
-              <img src="img/photo.png" alt="fotografía">
-              <h1>Fotografía</h1>
-          </div>
-        </a>
-         <a href="category.html">
-          <div class="cat" id="pai">
-              <img src="img/paint.png" alt="pintura">
-              <h1>Pintura</h1>
-          </div>
-        </a>
-        <a href="category.html">
-          <div class="cat" id="mus">
-              <img src="img/music.png" alt="música">
-              <h1>Música</h1>
-          </div>
-        </a>
-        <a href="category.html">
-          <div class="cat" id="cin">
-              <img src="img/cinema.png" alt="cine">
-              <h1>Cine</h1>
-          </div>
+
+            </div>
+
           </a>
-        </main>
+
+          <a href="category.html"> 
+
+            <div class="cat col-xs-12 col-sm-6 col-md-4 col-lg-4" id="the">
+
+              <div class="icon-theatre" alt="teatro"></div>
+
+              <h1>Teatro</h1>
+
+            </div>
+
+          </a>
+
+          <a href="category.html">  
+
+            <div class="cat col-xs-12 col-sm-6 col-md-4 col-lg-4" id="pho">
+
+              <div class="icon-camera" alt="fotografía"></div>
+
+              <h1>Fotografía</h1>
+
+            </div>
+
+          </a>
+
+          <a href="category.html">
+
+            <div class="cat col-xs-12 col-sm-6 col-md-4 col-lg-4" id="pai">
+
+              <div class="icon-pencil2" alt="pintura"></div>
+
+              <h1>Pintura</h1>
+
+            </div>
+
+          </a>
+
+          <a href="category.html">
+
+            <div class="cat col-xs-12 col-sm-6 col-md-4 col-lg-4" id="mus">
+
+              <div class="icon-music" alt="música"></div>
+
+              <h1>Música</h1>
+
+            </div>
+
+          </a>
+
+          <a href="category.html">
+
+            <div class="cat col-xs-12 col-sm-6 col-md-4 col-lg-4" id="cin">
+
+              <div class="icon-video-camera" alt="cine"></div>
+
+              <h1>Cine</h1>
+
+            </div>
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </main>
         
-    </div>
-     
+  </div>
+  
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>   
+  <script type="text/javascript" src="js/scriptsHome.js"></script>  
+
 </body>
 </html>
