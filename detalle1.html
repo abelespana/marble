@@ -42,23 +42,62 @@
 						<li><a title="Google+" href="https://plus.google.com/discover?hl=es" target="_blank"><div class="icon2-Gplus"></div></a></li>
 						<li><a title="Twitter" href="https://twitter.com/" target="_blank"><div class="icon2-TW"></div></a></li>
 						<li><a title="Facebook" href="https://es-es.facebook.com/" target="_blank"><div class="icon2-FB"></div></a></li>
-						<!-- <li><input type="button" value="Responder" id="respondComment"></li> -->
-					</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 						<!-- Trigger/Open The Modal -->
-						<input type="button" value="Responder" id="myBtn">
-						<!-- The Modal -->
-						<div id="myModal" class="modal">
+						<li>
+								<input type="button" value="Responder" class="respondComment" onclick="mostrarModal()">
+							
+							<!-- Modal content -->
+							<div class="modal-content" id="modalRespuesta">
+								<div class="modal-header">
+									<span onclick="cerrarEquis()">&times;</span>
+									<h2>Responde al comentario</h2>
+								</div>
+								<div class="modal-body">
+									<input type="textarea" placeholder="Escribe aqui tu comentario..." id="cajaComment">
+								</div>
+								<div class="modal-footer">
+									<!-- Enviar The Modal -->
+									<input type="button" value="Enviar comentario" class="respondComment" onclick="cerrarModal()">
+								</div>
+							</div>
+						</li>
 
-						<!-- Modal content -->
-						<div class="modal-content">
-						<span class="close">&times;</span>
-						<p>Some text in the Modal..</p>
-						</div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					</ul>
 
 
 						
@@ -75,9 +114,10 @@
 					<a href=""><img src="img/userAbel.jpg" alt="userpic2" class="imgRedonda" /></a>
 					<p>15/02/2018 21:26</p>
 				</div>
+			
 				<div class="comment">
 					<div class="comment1">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores rerum atque quis aut, at alias. Quos necessitatibus, labore assumenda dolore tempora, vel quod aperiam accusamus quidem deserunt, officiis similique voluptatibus.</p>
+						<p></p>
 					</div>
 					<div class="social-profile-icons">
 					<ul>

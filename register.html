@@ -3,23 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Register/Log in</title>
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
        <link rel="stylesheet" href="css/style.css">
 <body>
       <!--<div class="header">-->
       <header>
-          <div class="wrapper">
+          <div class="wrapper" class="elem-fluido">
               <img src="img/logoMarble.png" alt="logoMarble">
+      </header>
                   
       <!--<div class="main">-->
       <main>
-          <div class="wrapper">
-              <form action="register.html" method="post">
+          <div class="wrapper" >
+
+              <form action="category.html" method="post" id="miFormulario">
                   <div class="columnLeft rightText">
                       <label for="userName">User Name:</label>
                   </div>
-                  <div class="columnRight">
+                  <div class="columnRight inputBox">
                       <input type="text" id="userName" name="userName" maxlength="15" placeholder="Write Name here" />
                   </div>
                   <div class="columnLeft rightText">
@@ -29,7 +32,7 @@
                       <input type="password" id="userPassword" name="userPassword" maxlength="15" placeholder="Password here" />
                   </div>
                   <div class="columnLeft rightText">
-                      <label for="userPasswordTwo">Repeat your Password:</label>
+                      <label for="userPasswordTwo">Repeat Password:</label>
                   </div>
                   <div class="columnRight">
                       <input type="password" id="userPasswordTwo" name="userPasswordTwo" maxlength="15" placeholder="Repeat password" />
@@ -43,10 +46,13 @@
                   <div class="columnLeft rightText">
                       <label for="genderN">Gender:</label>
                   </div>
-                  <div class="columnRight">
-                      Male: <input type="radio" id="genderM" name="gender" value="M" />
-                      Female: <input type="radio" id="genderF" name="gender" value="F" />
-                      Indeterminate: <input type="radio" id="genderI" name="gender" value="I">
+                  <div class="columnRight"> 
+                    <table><tr>
+                     <td> M <input type="radio" id="genderM" name="gender" value="M" /></td>
+                     <td> F <input type="radio" id="genderF" name="gender" value="F" /></td>
+                     <td> N/S <input type="radio" id="genderI" name="gender" value="I"></td>
+                      </tr>
+                      </table>
                   </div>
                   <div class="columnLeft rightText">
                       <label for="age">Age:</label>
@@ -58,12 +64,12 @@
                       <label for="country">Country:</label>
                   </div>
                   <div class="columnRight">
-                      <select name="country" id="country">
-                          <option value="0">--select Your Country--</option>
-                          <option value="1">Amsterdam</option>
-                          <option value="2">Spain</option>
+                      <select name="country" id="paises" onchange="asdf();">
+                          <option value="0">select Your Country</option>
+                          <option value="1">Espana</option>
+                          <option value="2">Rusia</option>
                           <option value="3">China</option>
-                          <option value="4">Germany</option>
+                         <!--  <option value="4">Germany</option>
                           <option value="5">Belgium</option>
                           <option value="6">Denmark</option>
                           <option value="7">Japan</option>
@@ -72,16 +78,16 @@
                           <option value="10">Great Britain</option>
                           <option value="11">Indonesia</option>
                           <option value="12">Italy</option>
-                          <option value="13">Jamaica</option>
+                          <option value="13">Jamaica</option> -->
                       </select> 
                   </div>
                   <div class="columnLeft rightText">
                         <label for="city">City:</label>
                   </div>
                   <div class="columnRight">
-                      <select name="city" id="city">
-                          <option value="0">--select Your City--</option>
-                          <option value="1">Amsterdam</option>
+                      <select name="city" id="ciudad">
+                          <option>select Your City</option>
+                         <!--  <option value="1">Amsterdam</option>
                           <option value="2">Brussels</option>
                           <option value="3">Copenhagen</option>
                           <option value="4">Rome</option>
@@ -93,7 +99,7 @@
                           <option value="10">Sydney</option>
                           <option value="11">Tokyo</option>
                           <option value="12">Saint Petersburg</option>
-                          <option value="13">Prague</option>
+                          <option value="13">Prague</option> -->
                       </select>
                   </div>
                    <div class="columnLeft rightText">
@@ -107,22 +113,61 @@
                     <label for="tos">Accept the terms:</label>
                 </div>
                 <div class="columnRight">
-                    <span class="checkBox"><input type="checkbox" id="tos" name="tos" value="1" /></span>
+                    <span class="checkBox"><input type="checkbox" id="acepto" name="acepto" value="1" /></span>
                 </div>
                 
                 <input type="hidden" name="currentStep" value="1" />
                 
-                <input type="submit" id="botonsito" />
+                <input type="submit" id="botonsito" method =  />
                             
                </form>
-           </div>
-       </main>
-           </div>
-       </header>
-       <footer>
-          <div class="wrapper">
+               <div class="wrapper" id="policy">
             You accept the <a href="privacyPolicyPage">privacy policy</a> as well as the <a href="cookiePolicyPage">cookie policy</a>.
           </div>
-       </footer>    
+           </div>
+       </main>
+           <footer>
+            <div class="footerContent">
+              <div class="redesociales">
+                Síguenos en las redes sociales <br>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+              </div>
+              <div class="app_download">
+                Descárgate nuestra app gratuita <br>
+                <a href=""></a>
+              </div>
+              
+          </div> 
+
+           </footer>
+       
+       <!-- <footer>
+        <div class="footerContent">
+        <div class="socialMedia">
+        Síguenos en las redes sociales <br>
+        <a class="socialMedia__link" href="https://www.facebook.com/vibbo" title="facebook"><span class="icon-ics_social_ic_Facebook"></span></a>
+        <a class="socialMedia__link" href="https://twitter.com/vibbo" title="twitter"><span class="icon-ics_social_ic_Twitter"></span></a>
+        <a class="socialMedia__link" href="https://plus.google.com/b/114112449979379732907/114112449979379732907" title="google"><span class="icon-ics_social_ic_Google"></span></a>
+        <a class="socialMedia__link" href="https://instagram.com/vibbooficial" title="instagram"><span class="icon-ics_social_instagram"></span></a>
+        <a class="socialMedia__link" href="https://www.youtube.com/channel/UCLy21ZjmKas9abwQE0Li_kQ" title="youtube"><span class="icon-ics_social_ic_Youtube"></span></a> 
+      </div>
+
+      <div class="app_download">
+        Descárgate nuestras apps gratuitas <br>
+        <a class="app_download__link app_download__linkappstore" title="app store" href="https://itunes.apple.com/es/app/id335034206">app store</a>
+        <a class="app_download__link app_download__linkgoogleplay" title="google play" href="https://play.google.com/store/apps/details?id=com.anuntis.segundamano&amp;hl=es">google play</a>
+      </div>
+
+      <div class="web2lead_footer">
+        ¿Tienes muchas cosas por vender? <br>
+        <button></button>
+      </div>
+      </div>
+          
+       </footer>     Footer sin terminar.-->
+
+       <script type="text/javascript" src="js/validacion.js"></script>
 </body>    
 </html>
