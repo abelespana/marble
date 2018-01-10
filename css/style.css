@@ -435,7 +435,7 @@ max-width: 100%;
   text-decoration: none;
 }
 
-#respondComment{
+.respondComment{
   border-radius: 10px;
   padding: 10px;
 }
@@ -457,7 +457,7 @@ max-width: 100%;
 /* Modal Header */
 .modal-header {
     padding: 2px 16px;
-    background-color: #5cb85c;
+    background-color: blue;
     color: white;
 }
 
@@ -467,21 +467,22 @@ max-width: 100%;
 /* Modal Footer */
 .modal-footer {
     padding: 2px 16px;
-    background-color: #5cb85c;
+    background-color: blue;
     color: white;
 }
 
 /* Modal Content */
 .modal-content {
     position: relative;
-    background-color: #fefefe;
+    background-color: white;
     margin: auto;
     padding: 0;
     border: 1px solid #888;
     width: 80%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     animation-name: animatetop;
-    animation-duration: 0.4s
+    animation-duration: 0.4s;
+    display: none;
 }
 
 /* Add Animation */
