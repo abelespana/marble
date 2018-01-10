@@ -493,6 +493,12 @@ height: 150px;
 }
 
 
+#PiePaginaBlanca{
+ 
+  bottom: 0;
+  margin-left: 50%;
+}
+
 /*Fin del código de Blan*/
 
 /*Inicio del código de Mikel*/
@@ -507,7 +513,7 @@ height: 150px;
     /*width: 50%;*/
     /*max-height: 75px;*/
     
-}*/
+}
 /*
 .headerHome > a > #user{
     width: 25%;
@@ -518,7 +524,7 @@ height: 150px;
 .headerHome > div > div > #search{
     float: left;
     height: 48px;
-}*/
+}
 .headerHome > input{
 	display: none;
 }
@@ -557,47 +563,52 @@ main > div > div > a > .cat > h1{
 }
 
 main > div > div > a > #lit{
-  background-color: aquamarine;
-
+  background-color: aqua;
+  border: 3px solid black;
 }
 main > div > div > a > #the{
   background-color: pink;
+  border: 3px solid black;
 }
 main > div > div > a > #pho{
   background-color: orange;
+  border: 3px solid black;
 }
 main > div > div > a > #pai{
   background-color: mediumpurple;
+  border: 3px solid black;
 }
 main > div > div > a > #mus{
   background-color: forestgreen;
+  border: 3px solid black;
 }
 main > div > div > a > #cin{
   background-color: cornflowerblue;
+  border: 3px solid black;
 }
 
 div#lit:hover > div{
-  transform: rotateZ(360deg);
+  transform: scale(1.5);
   transition: 3s;
 }
 div#the:hover > div{
-  transform: rotateY(360deg);
+  transform: scale(1.5);
   transition: 3s;
 }
 div#pho:hover > div{
-  transform: rotateX(360deg);
+  transform: scale(1.5);
   transition: 3s;
 }
 div#pai:hover > div{
-  transform: scale(-1);
+  transform: scale(1.5);
   transition: 3s;
 }
 div#mus:hover > div{
-  transform: skew(180deg);
+  transform: scale(1.5);
   transition: 3s;
 }
 div#cin:hover > div{
-  transform: rotate(-360deg);
+  transform: scale(1.5);
   transition: 3s;
 }
 /*Fin del código de Mikel*/
@@ -714,7 +725,7 @@ ul#profileTabSwitcher > li > a {
 #profileText p {
   margin-top:4px;
 }
-/*Código de Rober.*/
+
 
 #profileUserInfo input {
 	margin-bottom:15px;
@@ -782,10 +793,10 @@ div.columnRight > input{
     width: 100%;
 }
 
-.rightText{
+/*.rightText{
     width: 40%;
 
-}
+}*/
 
 .checkBox{
   margin-top: 3%;
@@ -798,7 +809,7 @@ div.columnRight > input{
     width: 20%;
     
 
-}
+}/*
 #policy{
     text-align: center;
 }
@@ -811,7 +822,7 @@ div.columnRight > input{
     width: 50%;
     margin: 0 auto;
 
-}
+}*/
 .error{
     border: solid 2px #FF0000;
 }
@@ -883,6 +894,10 @@ div.wrapper > img{
       width: 100%;
       float: left;
   }
+  main > div > div > h3{
+
+    font-size: 120%;
+  }
   main > div > div > a > .cat{
       /*width: 100%;*/
       float: left;
@@ -931,6 +946,80 @@ div.wrapper > img{
   content: "\e914";
   font-size: 300%;
 }
+
+/*@query Rober*/
+.columnLeft{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top:1%;
+    
+}
+    
+.columnRight {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 1%;
+     
+
+}
+div.columnRight > p + input {
+    width:100%;
+    float: left;
+
+}
+div.columnRight > input{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+#paises{
+    width: 102%;
+    
+}
+#ciudad{
+    width: 102%;
+}
+#description{
+    width: 100%;
+}
+
+.rightText{
+    width: 100%;
+
+}
+
+.checkBox{
+  margin-top: 3%;
+}
+
+#botonsito{
+    margin-left: 38%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 20%;
+    
+
+}
+#policy{
+    text-align: center;
+}
+.redesociles{
+    width: 50%;
+    margin: 0 auto;
+
+}
+.app_download{
+    width: 50%;
+    margin: 0 auto;
+
+}
+.error{
+    border: solid 2px #FF0000;
+}
+
 }
  /* Cierre media querie móviles */
 
