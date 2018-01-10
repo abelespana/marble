@@ -712,7 +712,7 @@ ul#profileTabSwitcher > li > a {
 #profileText p {
   margin-top:4px;
 }
-/*Código de Rober.*/
+
 
 #profileUserInfo input {
 	margin-bottom:15px;
@@ -780,10 +780,10 @@ div.columnRight > input{
     width: 100%;
 }
 
-.rightText{
+/*.rightText{
     width: 40%;
 
-}
+}*/
 
 .checkBox{
   margin-top: 3%;
@@ -796,7 +796,7 @@ div.columnRight > input{
     width: 20%;
     
 
-}
+}/*
 #policy{
     text-align: center;
 }
@@ -809,7 +809,7 @@ div.columnRight > input{
     width: 50%;
     margin: 0 auto;
 
-}
+}*/
 .error{
     border: solid 2px #FF0000;
 }
@@ -929,6 +929,80 @@ div.wrapper > img{
   content: "\e914";
   font-size: 300%;
 }
+
+/*@query Rober*/
+.columnLeft{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top:1%;
+    
+}
+    
+.columnRight {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 1%;
+     
+
+}
+div.columnRight > p + input {
+    width:100%;
+    float: left;
+
+}
+div.columnRight > input{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+#paises{
+    width: 102%;
+    
+}
+#ciudad{
+    width: 102%;
+}
+#description{
+    width: 100%;
+}
+
+.rightText{
+    width: 100%;
+
+}
+
+.checkBox{
+  margin-top: 3%;
+}
+
+#botonsito{
+    margin-left: 38%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 20%;
+    
+
+}
+#policy{
+    text-align: center;
+}
+.redesociles{
+    width: 50%;
+    margin: 0 auto;
+
+}
+.app_download{
+    width: 50%;
+    margin: 0 auto;
+
+}
+.error{
+    border: solid 2px #FF0000;
+}
+
 }
  /* Cierre media querie móviles */
 
