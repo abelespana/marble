@@ -18,7 +18,7 @@
 }
 
 [class^="icon2-"], [class*=" icon2-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
+/* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: none;
   font-style: normal;
@@ -147,7 +147,6 @@
   content: "\e9ce";
 }
 
-
 @font-face {
  font-family: 'icomoon3';
   src:  url('../fonts/icomoon3.eot?dk5ln9');
@@ -158,9 +157,18 @@
   font-weight: normal;
   font-style: normal;
 }
+/*Vinculación a la fuente que vamos a usar en titulares */
+@font-face {
+	font-family: CaviarDreams;
+	src: url('../fonts/CaviarDreamsl.eot');
+	src: local('☺'),
+        url('../fonts/CaviarDreams.woff') format('woff'), url('../fonts/CaviarDreams.ttf') format('truetype'), url('../fonts/CaviarDreamsl.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 
 [class^="icon3-"], [class*=" icon3-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
+/* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon3' !important;
   speak: none;
   font-style: normal;
@@ -170,7 +178,7 @@
   line-height: 1;
   font-size: 250%;
 
-  /* Better Font Rendering =========== */
+/* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -181,7 +189,6 @@
 .icon3-plus:before {
   content: "\ea0a";
 }
-
 
 @font-face {
   font-family: 'home';
@@ -195,7 +202,7 @@
 }
 
 [class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
+/* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'home' !important;
   speak: none;
   
@@ -206,11 +213,10 @@
   text-transform: none;
   line-height: 1;
 
-  /* Better Font Rendering =========== */
+/* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 
 .icon-book:before {
   content: "\e91f";
@@ -247,7 +253,6 @@
   font-size: 350%;
 }
 
-
 /* Hola Holita amiguitos: parte común; */
 
 body {
@@ -275,44 +280,34 @@ nav > .search{
 }
 
 .wrapper{
-    width: 480px;
+    width: 960px;
     margin: 0 auto;
 }
-
-
-/*------Fin del código de todos-----*/
-
+/* Fin del código de todos */
 
 /* Movidas de Blanca */
-
-/* ---Category.html--- */
-.theme{
-   width: 100%;
+.theme {
+  width: 100%;
   margin: 0 auto;
-	 float: left;
+	float: left;
 }
-
 div.theme > h1{
     text-align: center;
 }
-
 div.theme > img{
     max-width: 100%;
     margin-left: 50%; /*preguntar al profe*/
 }
-
 .bloque{
   width: 100%;
 	float: left;
 }
-
 .user{
     width: 15%;
     float: left;
     margin-right: 3%;
     max-width: 100%;
 }
-
 .time {
     color: grey;
     float: left;
@@ -322,55 +317,46 @@ div.theme > img{
     width: 72%;
     float: left;
 }
-
 .fecha{
     color: grey;
 }
-
 .info{
     width: 10%;
     float: left;
 }
-
 .flechas{
     height: 127px;
 }
-
 .stats{
     width: 33%;
     display: block;
     margin: 0 auto;
 }
-
 .text-stats{
     display: block;
     margin: 0 auto;
 }
-
 div.flechas > a{
     text-decoration: none;
     text-align: center;
 }
 
-
-/* ---detalle1.html--- */
-
 .imgRedonda {
-    width:150px;
-    height:150px;
-    border-radius:150px;
+  width:150px;
+  height:150px;
+  border-radius:150px;
 }
 
 .debate-title{
 	width: 100%;
 	float: left;
-  margin-top: 20px;	
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .debate-title > h1 {
   float: left;
-  width: 80%; 
+  width: 80%;
 }
 
 .temaIcon{
@@ -380,7 +366,23 @@ div.flechas > a{
   margin-right: 3%;
 }
 
-.debate-main{
+.debate-title{
+	width: 100%;
+	float: left;
+}
+
+.debate-title > img{
+	float: left;
+	max-width: 100%;
+	margin-top: 8%;
+}
+
+.debate-title > h1 {
+	float: left;
+	width: 80%;
+}
+
+.debate-main {
 	width: 100%;
 	float:left;
 }
@@ -393,9 +395,12 @@ div.flechas > a{
 .user-debate > a > img{
 float: left;
 max-width: 100%;
-
 }
+
 .debate-main > .user-debate > h4{
+}
+
+.debate-main > .user-debate > p{
 	margin-left: 15px;
 	margin-bottom: 0;
 	margin-top: 0;
@@ -408,14 +413,19 @@ max-width: 100%;
 
 .debate-main > .comment > .comment1 > p{
   margin-top: 10%;
-} 
+}
 
 .social-profile-icons > ul{
-	 float: right; 
-   width: 50%;
-   margin-left: 50%;
+	float: right;
+  width: 50%;
+  margin-left: 50%;
+	margin-top: 10%;
 }
-.social-profile-icons > ul > li{
+
+.social-profile-icons{
+	width: 100%;
+}
+.social-profile-icons > ul > li {
   float: right;
   list-style-type: none;
   margin-left: 6%;
@@ -430,6 +440,13 @@ max-width: 100%;
   padding: 10px;
 }
 
+.comment > .social-profile-icons > ul > li > a > img{
+	width: 30px;
+	float: left;
+}
+.comment > .social-profile-icons > ul{
+	float: right;
+}
 .answers{
   width: 90%;
 	margin-left: 10%;
@@ -437,17 +454,47 @@ max-width: 100%;
 	float: left;
 }
 
+/* Modal Header */
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+/* Modal Body */
+.modal-body {padding: 2px 16px;}
+
+/* Modal Footer */
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
 
 
 /*Fin del código de Blan*/
 
-/*----------------------------*/
-
-
-
-
 /*Inicio del código de Mikel*/
-}
+
 .headerHome{
    width: 100%;
     float: left;
@@ -472,7 +519,7 @@ max-width: 100%;
 }*/
 .headerHome > input{
 	display: none;
-	}
+}
 
     /*width: 25%;*/
     /*height: 48px;*/
@@ -486,8 +533,8 @@ max-width: 100%;
 
 
 main{
-    width: 100%;
-    float: left;
+  width: 100%;
+  float: left;
 }
 main > div > div > a > .cat{
     /*width: 50%;*/
@@ -508,137 +555,201 @@ main > div > div > a > .cat > h1{
 }
 
 main > div > div > a > #lit{
-    background-color: aquamarine;
-    
+  background-color: aquamarine;
+
 }
 main > div > div > a > #the{
-    background-color: pink;
+  background-color: pink;
 }
 main > div > div > a > #pho{
-    background-color: orange;
+  background-color: orange;
 }
 main > div > div > a > #pai{
-    background-color: mediumpurple;
+  background-color: mediumpurple;
 }
 main > div > div > a > #mus{
-    background-color: forestgreen;
+  background-color: forestgreen;
 }
 main > div > div > a > #cin{
-    background-color: cornflowerblue;
+  background-color: cornflowerblue;
 }
 
 div#lit:hover > div{
-    transform: rotateZ(360deg);
-    transition: 3s;
+  transform: rotateZ(360deg);
+  transition: 3s;
 }
 div#the:hover > div{
-    transform: rotateY(360deg);
-    transition: 3s;
+  transform: rotateY(360deg);
+  transition: 3s;
 }
 div#pho:hover > div{
-    transform: rotateX(360deg);
-    transition: 3s;
+  transform: rotateX(360deg);
+  transition: 3s;
 }
 div#pai:hover > div{
-    transform: scale(-1);
-    transition: 3s;
+  transform: scale(-1);
+  transition: 3s;
 }
 div#mus:hover > div{
-    transform: skew(180deg);
-    transition: 3s;
+  transform: skew(180deg);
+  transition: 3s;
 }
 div#cin:hover > div{
-    transform: rotate(-360deg);
-    transition: 3s;
+  transform: rotate(-360deg);
+  transition: 3s;
 }
-
 /*Fin del código de Mikel*/
 
 /*Código de Abel */
-
-#headerProfile {
-    width:100%;
-    float:left;
-    border-bottom-style:solid;
-    border-bottom-width:1px;
-    border-bottom-color:black;
-    margin-bottom:15px;
+#modalWindow {
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0,0,0,0.7);
 }
 
-#headerProfile > img {
-    width:50%;
-    margin-left:25%;
-    margin-bottom:-120px;
-    margin-top:-80px;
+#modalWindowContent {
+	background-color:aquamarine;
+	padding:15px;
+	width:calc(24% - 15px);
+	margin-top:200px;
+	margin-left:38%;
 }
 
-#headerProfile > h1 {
-    text-align:center;
-    margin-bottom:50px;
-
+#modalWindowContent > img {
+	width:75%;
+	margin-left:12.5%;
+	margin-bottom:18px;
 }
+
+.modalWindowField {
+	width:70%;
+	margin-left:15%;
+	margin-bottom:10px;
+	margin-right:15%;
+	font-size:0.8em;
+}
+
+.marginless {
+	margin-right:0%;
+}
+
+.modalWindowFieldError {
+	color:red;
+	font-size:1em;
+	font-style:italic;
+}
+
+#profileHeader {
+  width:100%;
+  float:left;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  border-bottom-color:black;
+  margin-bottom:15px;
+}
+
+#profileHeader > img {
+  width:25%;
+  margin-left:37.5%;
+	margin-bottom:-20px;
+}
+
+#profileHeader > h1 {
+  text-align:center;
+  margin-bottom:20px;
+}
+
 #profileContent {
-    width:100%;
-    margin:0 auto;
-    float:left;
-    border-style:solid;
-    border-width:1px;
-    border-color:black;
+  width:100%;
+  margin:0 auto;
+  float:left;
+  border-style:solid;
+  border-width:1px;
+  border-color:black;
 }
 
 #profileTabSwitcher{
-    width:100%;
-    margin:0 auto;
-    float:left;
-    padding:0;
-    border-bottom: 1px solid black;
-    margin-bottom:25px;
+  width:100%;
+  margin:0 auto;
+  float:left;
+  padding:0;
+  border-bottom: 1px solid black;
+  margin-bottom:25px;
 }
 
 #profileTabSwitcher li.notselected {
-    opacity:0.6 ;
+  opacity:0.6 ;
+}
+#profileTabSwitcher li.notselected:visited{
+	opacity:1;
 }
 
-/* ul li {
-    list-style-type:none;
-    width:33.1%;
-    float:left;
-    border-right-style:solid;
-    border-right-width:1px;
-    border-right-color:white;
-    background-color:grey; ABELLLLL LO HE COMENTADO, TIENES QUE SER MÁS ESPECÍFICO
-    text-align:center;
-    color:white;
-    height:30px;
-    line-height:30px; */
+ul#profileTabSwitcher li {
+  list-style-type:none;
+  width:33.33%;
+  float:left;
+  background-color:grey;
+  text-align:center;
+  color:white;
+  height:30px;
+  line-height:30px;
 }
 
-/* ul > li > a {
-    text-decoration:none;
-    color:white;
-} */
+ul#profileTabSwitcher > li > a {
+  text-decoration:none;
+  color:white;
+}
 
 #profileText {
-    padding:15px;
+  padding:15px;
 }
 
 #profileText p {
-    margin-top:4px;
+  margin-top:4px;
 }
 
+#profileUserInfo input {
+	margin-bottom:15px;
+}
+
+#profileUserInfo > .barraSeparadora {
+	width:100%;
+	background-color:black;
+	height:2px;
+	display:none;
+	margin: 15px 0;
+}
+
+#profileUserVisited, #profileUserVoted, #profileUserComented {
+	line-height:35px;
+	display:none;
+}
+
+.userInfoDetailed {
+	margin-bottom:10px;
+	display:none;
+}
+
+/* Código de Róber */
 .columnLeft{
-    width: 50%;
-    float: left;
-    text-align: center;
-     
+  width: 50%;
+  float: left;
+  text-align: center;
 }
+
 .columnRight {
-    width: 50%;
-    float: left;
-    text-align: center;
+  width: 50%;
+  float: left;
+  text-align: center;
 }
+
 .checkBox{
-    margin-top: 3%;
+  margin-top: 3%;
 }
 
 #botonsito{
@@ -647,14 +758,16 @@ div#cin:hover > div{
   margin-bottom: 20px;
 }
 
-
 /* TODO: Check this */
-/* 
+/*
 div.wrapper > img{
     width: 300px;
 }
 /* Qué demonios era esto */
 
+div.wrapper > img{
+  width: 300px;
+}
 
 /* RESPONSIVE DESIGN */
 
