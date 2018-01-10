@@ -450,7 +450,7 @@ max-width: 100%;
 /* Modal Header */
 .modal-header {
     padding: 2px 16px;
-    background-color: blue;
+    background-color: aqua;
     color: white;
 }
 
@@ -460,7 +460,7 @@ max-width: 100%;
 /* Modal Footer */
 .modal-footer {
     padding: 2px 16px;
-    background-color: blue;
+    background-color: aqua;
     color: white;
 }
 
