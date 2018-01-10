@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-
 @font-face {
   font-family: 'icomoon';
   src:  url('../fonts/icomoon.eot?dk5ln9');
@@ -13,7 +10,7 @@
 }
 
 [class^="icon2-"], [class*=" icon2-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
+/* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: none;
   font-style: normal;
@@ -142,7 +139,6 @@
   content: "\e9ce";
 }
 
-
 @font-face {
  font-family: 'icomoon3';
   src:  url('../fonts/icomoon3.eot?dk5ln9');
@@ -152,7 +148,7 @@
     url('../fonts/icomoon3.svg?dk5ln9#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
-=======
+}
 /*Vinculación a la fuente que vamos a usar en titulares */
 @font-face {
 	font-family: CaviarDreams;
@@ -161,11 +157,10 @@
         url('../fonts/CaviarDreams.woff') format('woff'), url('../fonts/CaviarDreams.ttf') format('truetype'), url('../fonts/CaviarDreamsl.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
->>>>>>> AbelEnero
 }
 
 [class^="icon3-"], [class*=" icon3-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
+/* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon3' !important;
   speak: none;
   font-style: normal;
@@ -175,7 +170,7 @@
   line-height: 1;
   font-size: 250%;
 
-  /* Better Font Rendering =========== */
+/* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -186,7 +181,6 @@
 .icon3-plus:before {
   content: "\ea0a";
 }
-
 
 @font-face {
   font-family: 'home';
@@ -200,7 +194,7 @@
 }
 
 [class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
+/* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'home' !important;
   speak: none;
   font-size: 550%;
@@ -211,11 +205,10 @@
   text-transform: none;
   line-height: 1;
 
-  /* Better Font Rendering =========== */
+/* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 
 .icon-book:before {
   content: "\e91f";
@@ -243,7 +236,6 @@
   content: "\e986";
 }
 
-
 /* Hola Holita amiguitos: parte común; */
 
 body {
@@ -269,29 +261,18 @@ nav > .search{
   margin-top: 20px;
   margin-right: 2%;
 }
+
 .wrapper{
     width: 960px;
     margin: 0 auto;
-<<<<<<< HEAD
 }
-
-
-/*------Fin del código de todos-----*/
-
+/* Fin del código de todos */
 
 /* Movidas de Blanca */
-
-/* ---Category.html--- */
-=======
-
-}
-/*Fin del código de todos*/
-/* Movidas de Blanca */
->>>>>>> AbelEnero
-.theme{
-   width: 100%;
+.theme {
+  width: 100%;
   margin: 0 auto;
-	 float: left;
+	float: left;
 }
 div.theme > h1{
     text-align: center;
@@ -342,27 +323,23 @@ div.flechas > a{
     text-decoration: none;
     text-align: center;
 }
-<<<<<<< HEAD
-
-
-/* ---detalle1.html--- */
 
 .imgRedonda {
-    width:150px;
-    height:150px;
-    border-radius:150px;
+  width:150px;
+  height:150px;
+  border-radius:150px;
 }
 
 .debate-title{
 	width: 100%;
 	float: left;
-  margin-top: 20px;	
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .debate-title > h1 {
   float: left;
-  width: 80%; 
+  width: 80%;
 }
 
 .temaIcon{
@@ -370,71 +347,72 @@ div.flechas > a{
 	width: 10%;
   margin-left: 7%;
   margin-right: 3%;
-=======
+}
+
 .debate-title{
 	width: 100%;
 	float: left;
-
 }
+
 .debate-title > img{
 	float: left;
 	max-width: 100%;
 	margin-top: 8%;
 }
+
 .debate-title > h1 {
 	float: left;
 	width: 80%;
->>>>>>> AbelEnero
 }
-.debate-main{
+
+.debate-main {
 	width: 100%;
 	float:left;
 }
+
 .user-debate{
 	width: 20%;
 	float: left;
 }
-<<<<<<< HEAD
 
 .user-debate > a > img{
 float: left;
 max-width: 100%;
-
 }
+
 .debate-main > .user-debate > h4{
-=======
+}
+
 .debate-main > .user-debate > p{
->>>>>>> AbelEnero
 	margin-left: 15px;
 	margin-bottom: 0;
 	margin-top: 0;
 }
+
 .comment{
   width: 80%;
   float: left;
 }
+
 .debate-main > .comment > .comment1 > p{
-<<<<<<< HEAD
   margin-top: 10%;
-} 
+}
 
 .social-profile-icons > ul{
-	 float: right; 
-   width: 50%;
-   margin-left: 50%;
-=======
+	float: right;
+  width: 50%;
+  margin-left: 50%;
 	margin-top: 10%;
 }
+
 .social-profile-icons{
 	width: 100%;
->>>>>>> AbelEnero
 }
-.social-profile-icons > ul > li{
+.social-profile-icons > ul > li {
   float: right;
   list-style-type: none;
   margin-left: 6%;
 }
-<<<<<<< HEAD
 
 .social-profile-icons > ul > li > a{
   text-decoration: none;
@@ -443,14 +421,14 @@ max-width: 100%;
 #respondComment{
   border-radius: 10px;
   padding: 10px;
-=======
+}
+
 .comment > .social-profile-icons > ul > li > a > img{
 	width: 30px;
 	float: left;
 }
 .comment > .social-profile-icons > ul{
 	float: right;
->>>>>>> AbelEnero
 }
 .answers{
   width: 90%;
@@ -458,117 +436,101 @@ max-width: 100%;
 	border-left: 6px solid #333;
 	float: left;
 }
-
-<<<<<<< HEAD
-
-
 /*Fin del código de Blan*/
 
-/*----------------------------*/
-
-
-
-=======
-/* Fin del código de Blanca */
->>>>>>> AbelEnero
-
 /*Inicio del código de Mikel*/
-}
+
 .headerHome{
-   width: 100%;
-    float: left;
+  width: 100%;
+  float: left;
 }
 .headerHome > a > #logo{
-    width: 50%;
-    float: left;
-    max-height: 75px;
-
+  width: 50%;
+  float: left;
+  max-height: 75px;
 }
 
 .headerHome > a > #user{
-    width: 25%;
-    float: left;
+  width: 25%;
+  float: left;
 	height: 48px;
 }
 .headerHome > #search{
-    width: 25%;
-    float: left;
-    height: 48px;
+  width: 25%;
+  float: left;
+  height: 48px;
 }
-
 
 .headerHome > input{
 	display: none;
-	}
+}
 
 main{
-    width: 100%;
-    float: left;
+  width: 100%;
+  float: left;
 }
 main > div > div > a > .cat{
-    width: 50%;
-    float: left;
+  width: 50%;
+  float: left;
 }
 main > div > div > a > .cat > div{
-    width: 30%;
-    margin-left: 35%;
-    margin-top: 20px;
-    transition: 3s;
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 20px;
+  transition: 3s;
 }
 main > div > div > a > .cat > h1{
-   text-align: center;
-    margin-left: 5%;
-    color: black;
+  text-align: center;
+  margin-left: 5%;
+  color: black;
 }
 main > div > div > a > #lit{
-    background-color: aquamarine;
+  background-color: aquamarine;
 
 }
 main > div > div > a > #the{
-    background-color: pink;
+  background-color: pink;
 }
 main > div > div > a > #pho{
-    background-color: orange;
+  background-color: orange;
 }
 main > div > div > a > #pai{
-    background-color: mediumpurple;
+  background-color: mediumpurple;
 }
 main > div > div > a > #mus{
-    background-color: forestgreen;
+  background-color: forestgreen;
 }
 main > div > div > a > #cin{
-    background-color: cornflowerblue;
+  background-color: cornflowerblue;
 }
 
 div#lit:hover > div{
-    transform: rotateZ(360deg);
-    transition: 3s;
+  transform: rotateZ(360deg);
+  transition: 3s;
 }
 div#the:hover > div{
-    transform: rotateY(360deg);
-    transition: 3s;
+  transform: rotateY(360deg);
+  transition: 3s;
 }
 div#pho:hover > div{
-    transform: rotateX(360deg);
-    transition: 3s;
+  transform: rotateX(360deg);
+  transition: 3s;
 }
 div#pai:hover > div{
-    transform: scale(-1);
-    transition: 3s;
+  transform: scale(-1);
+  transition: 3s;
 }
 div#mus:hover > div{
-    transform: skew(180deg);
-    transition: 3s;
+  transform: skew(180deg);
+  transition: 3s;
 }
 div#cin:hover > div{
-    transform: rotate(-360deg);
-    transition: 3s;
+  transform: rotate(-360deg);
+  transition: 3s;
 }
-
 /*Fin del código de Mikel*/
 
 /*Código de Abel */
-
 #modalWindow {
 	position: fixed;
 	z-index: 1;
@@ -613,87 +575,72 @@ div#cin:hover > div{
 }
 
 #profileHeader {
-    width:100%;
-    float:left;
-    border-bottom-style:solid;
-    border-bottom-width:1px;
-    border-bottom-color:black;
-    margin-bottom:15px;
+  width:100%;
+  float:left;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  border-bottom-color:black;
+  margin-bottom:15px;
 }
 
 #profileHeader > img {
-    width:25%;
-    margin-left:37.5%;
-		margin-bottom:-20px;
+  width:25%;
+  margin-left:37.5%;
+	margin-bottom:-20px;
 }
 
 #profileHeader > h1 {
-    text-align:center;
-    margin-bottom:20px;
-
+  text-align:center;
+  margin-bottom:20px;
 }
+
 #profileContent {
-    width:100%;
-    margin:0 auto;
-    float:left;
-    border-style:solid;
-    border-width:1px;
-    border-color:black;
+  width:100%;
+  margin:0 auto;
+  float:left;
+  border-style:solid;
+  border-width:1px;
+  border-color:black;
 }
 
 #profileTabSwitcher{
-    width:100%;
-    margin:0 auto;
-    float:left;
-    padding:0;
-    border-bottom: 1px solid black;
-    margin-bottom:25px;
+  width:100%;
+  margin:0 auto;
+  float:left;
+  padding:0;
+  border-bottom: 1px solid black;
+  margin-bottom:25px;
 }
 
 #profileTabSwitcher li.notselected {
-    opacity:0.6 ;
+  opacity:0.6 ;
 }
-#profileTabSwitcher li.notselected:active{
+#profileTabSwitcher li.notselected:visited{
 	opacity:1;
 }
 
-<<<<<<< HEAD
-/* ul li {
-=======
 ul#profileTabSwitcher li {
->>>>>>> AbelEnero
-    list-style-type:none;
-    width:33.33%;
-    float:left;
-<<<<<<< HEAD
-    border-right-style:solid;
-    border-right-width:1px;
-    border-right-color:white;
-    background-color:grey; ABELLLLL LO HE COMENTADO, TIENES QUE SER MÁS ESPECÍFICO
-=======
-		background-color:grey;
->>>>>>> AbelEnero
-    text-align:center;
-    color:white;
-    height:30px;
-    line-height:30px; */
+  list-style-type:none;
+  width:33.33%;
+  float:left;
+  background-color:grey;
+  text-align:center;
+  color:white;
+  height:30px;
+  line-height:30px;
 }
 
-<<<<<<< HEAD
-/* ul > li > a {
-=======
 ul#profileTabSwitcher > li > a {
->>>>>>> AbelEnero
-    text-decoration:none;
-    color:white;
-} */
+  text-decoration:none;
+  color:white;
+}
 
 #profileText {
-    padding:15px;
+  padding:15px;
 }
 
 #profileText p {
-    margin-top:4px;
+  margin-top:4px;
 }
 
 #profileUserInfo input {
@@ -720,18 +667,19 @@ ul#profileTabSwitcher > li > a {
 
 /* Código de Róber */
 .columnLeft{
-    width: 50%;
-    float: left;
-    text-align: center;
+  width: 50%;
+  float: left;
+  text-align: center;
+}
 
-}
 .columnRight {
-    width: 50%;
-    float: left;
-    text-align: center;
+  width: 50%;
+  float: left;
+  text-align: center;
 }
+
 .checkBox{
-    margin-top: 3%;
+  margin-top: 3%;
 }
 
 #botonsito{
@@ -740,121 +688,123 @@ ul#profileTabSwitcher > li > a {
 	margin-bottom: 20px;
 }
 
-
-<<<<<<< HEAD
 /* TODO: Check this */
-/* 
+/*
 div.wrapper > img{
     width: 300px;
 } */
-=======
-/* Qué demonios era esto */
-div.wrapper > img{
-    width: 300px;
-}
->>>>>>> AbelEnero
-/* Qué demonios era esto */
 
+div.wrapper > img{
+  width: 300px;
+}
 
 /* RESPONSIVE DESIGN */
 /* Apertura media querie móviles */
 @media screen and (min-width: 280px) and (max-width: 479px){
+
 .wrapper{
-    width: 320px;
-    margin: 0 auto;
+  width: 320px;
+  margin: 0 auto;
 }
+
 .headerHome{
-   width: 100%;
-    float: left;
+  width: 100%;
+  float: left;
 }
+
 .headerHome > a > #logo{
-    width: 100%;
-    float: left;
-    max-height: 75px;
+  width: 100%;
+  float: left;
+  max-height: 75px;
 }
+
 .headerHome > a > #user{
-    width: 50%;
-    float: left;
+  width: 50%;
+  float: left;
 	height: 48px;
 }
+
 .headerHome > #search{
-    width: 50%;
-    float: left;
-    height: 48px;
+  width: 50%;
+  float: left;
+  height: 48px;
 }
+
 .headerHome > input{
 	display: none;
 }
 
 main{
-    width: 100%;
-    float: left;
+  width: 100%;
+  float: left;
 }
 main > a > .cat{
-    width: 100%;
-    float: left;
+  width: 100%;
+  float: left;
 }
 main > a > .cat > img{
-    width: 30%;
-    margin-left: 35%;
-    margin-top: 20px;
-    transition: 3s;
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 20px;
+  transition: 3s;
 }
 main > a > .cat > h1{
-   text-align: center;
-    margin-left: 5%;
-    color: black;
+  text-align: center;
+  margin-left: 5%;
+  color: black;
 }
 main > a > #lit{
-    background-color: aquamarine;
+  background-color: aquamarine;
 }
 main > a > #the{
-    background-color: pink;
+  background-color: pink;
 }
 main > a > #pho{
-    background-color: orange;
+  background-color: orange;
 }
 main > a > #pai{
-    background-color: mediumpurple;
+  background-color: mediumpurple;
 }
 main > a > #mus{
-    background-color: forestgreen;
+  background-color: forestgreen;
 }
 main > a > #cin{
-    background-color: cornflowerblue;
+  background-color: cornflowerblue;
 }
 div#lit:hover > img{
-    transform: rotateZ(360deg);
-    transition: 3s;
+  transform: rotateZ(360deg);
+  transition: 3s;
 }
 div#the:hover > img{
-    transform: rotateY(360deg);
-    transition: 3s;
+  transform: rotateY(360deg);
+  transition: 3s;
 }
 div#pho:hover > img{
-    transform: rotateX(360deg);
-    transition: 3s;
+  transform: rotateX(360deg);
+  transition: 3s;
 }
 div#pai:hover > img{
-    transform: scale(-1);
-    transition: 3s;
+  transform: scale(-1);
+  transition: 3s;
 }
 div#mus:hover > img{
-    transform: skew(180deg);
-    transition: 3s;
+  transform: skew(180deg);
+  transition: 3s;
 }
 div#cin:hover > img{
-    transform: rotate(-360deg);
-    transition: 3s;
+  transform: rotate(-360deg);
+  transition: 3s;
 }
 } /* Cierre media querie móviles */
 
  /* Apertura media querie tablets */
 @media screen and (max-width: 480px){
+
 .wrapper{
 	width: 400px;
     margin: 0 auto;
 }
+
 .bloque > div.topic > a > h2{
 		font-size: 1em;
 }

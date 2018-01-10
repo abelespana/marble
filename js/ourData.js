@@ -25,7 +25,7 @@ var mikel = {
   "favouritedessert":"Vulcano de chocolate"
 }
 
-var mikel = {
+var rober = {
   "name":"Rober",
   "username":"Rober",
   "age":23,
