@@ -814,9 +814,10 @@ div.columnRight > input{
 div.wrapper > img{
     width: 300px;
 }
-/* Qué demonios era esto */
+/* Qué demonios era esto
+RESPUESTA: es el logo de Rober; */
 
-div.wrapper > img{
+div.wrapper > a > img{
   width: 300px;
 }
 

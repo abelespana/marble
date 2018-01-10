@@ -41,8 +41,8 @@ function validaNombre(){
 
 function validaContraseña(){
 	var elemento = document.getElementById("userPassword");
-	if (!isNaN(elemento.value)){
-		alert("El campo contraseña tiene que ser un String");
+	if (isNaN(elemento.value)){
+		alert("El campo contraseña tiene que ser números");
 		error(elemento);
 		return false;
 	}
@@ -55,12 +55,14 @@ function validaRepitaContraseña(){
     var password2 = document.getElementById("userPasswordTwo").value;
     var espacios = false;
 	var cont = 0;
+
 			     
 	    while (!espacios && (cont < password1.length)) {
 	      if (password1.charAt(cont) == " ")
 			        espacios = true;
 			      cont++;
 			}
+
 			     
 	    if (espacios) {
 		      alert ("La contraseña no puede contener espacios en blanco");
@@ -76,6 +78,7 @@ function validaRepitaContraseña(){
 			      alert("Las passwords deben de coincidir");
 			      error(elemento);
 			      return false;
+
 		    } else {
 			      //alert("Todo esta correcto");
 			      return true; 
