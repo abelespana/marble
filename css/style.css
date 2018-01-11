@@ -271,6 +271,31 @@ nav > .search{
   margin-top: 20px;
   margin-right: 2%;
 }
+header{
+  width: 100%;
+  float: left;
+}
+main{
+  width: 100%;
+  float: left;
+}
+footer{
+  margin-top: 50px;
+  margin-bottom: 10px;
+  width: 100%;
+  float: left;
+  color: gray;
+}
+
+footer > a{
+text-decoration: underline;
+background-color: red;
+}
+
+footer > div.wrapper > img{
+  width: 100px;
+
+}
 
 .wrapper{
     width: 960px;
@@ -840,13 +865,13 @@ div.wrapper > a > img{
   width: 300px;
 }
 
-/* RESPONSIVE DESIGN */
+/*-------------- RESPONSIVE DESIGN------------------ */
 
 
 
 
 
-/* Apertura media querie móviles */
+/* ---------------------------------Apertura media querie móviles */
 
 @media screen and (max-width: 768px){
   .wrapper{
@@ -1024,7 +1049,7 @@ div.columnRight > input{
 }
  /* Cierre media querie móviles */
 
- /* Apertura media querie tablets */
+ /* ---------------------------Apertura media querie tablets */
 
 @media screen and (min-width: 768px) and (max-width: 992px){
 
@@ -1097,7 +1122,7 @@ div.columnRight > input{
 }
 } 
  /* Cierre media querie tablets */
-/* Apertura media querie desktop */
+/* ------------------------------Apertura media querie desktop mediano */
 
 @media screen and (min-width: 992px) and (max-width: 1200px){
 .wrapper{
@@ -1169,7 +1194,7 @@ main > a > .cat{
   font-size: 550%;
 }
 }
-
+/* ----------------------Apertura media querie desktop grande */
 @media screen and (min-width: 1200px) and (max-width: 2000px){
   .wrapper{
     width: 1000px;
