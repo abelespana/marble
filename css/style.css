@@ -548,7 +548,7 @@ height: 150px;
 }
 .headerHome > div > div > #search{
     float: left;
-    height: 48px;
+    /*height: 48px;*/
 }
 .headerHome > input{
 	display: none;
