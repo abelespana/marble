@@ -198,7 +198,7 @@
 /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'home' !important;
   speak: none;
-  
+
   color: black;
   font-style: normal;
   font-weight: normal;
@@ -484,7 +484,7 @@ max-width: 100%;
 
 /* Modal Header */
 .modal-header {
-    padding: 2px 16px; 
+    padding: 2px 16px;
     background-color: aqua;
     color: white;
 }
@@ -529,7 +529,7 @@ height: 150px;
 
 
 #PiePaginaBlanca{
- 
+
   bottom: 0;
   margin-left: 50%;
 }
@@ -547,7 +547,7 @@ height: 150px;
     float: left;
     /*width: 50%;*/
     /*max-height: 75px;*/
-    
+
 }
 /*
 .headerHome > a > #user{
@@ -593,8 +593,8 @@ main > div > div > a > .cat > div{
 main > div > div > a > .cat > h1{
     text-align: center;
     margin-left: 5%;
-    color: black; 
-    font-size: 250%; 
+    color: black;
+    font-size: 250%;
 }
 
 main > div > div > a > #lit{
@@ -796,15 +796,15 @@ ul#profileTabSwitcher > li > a {
     float: left;
     text-align: right;
     margin-top:1%;
-    
+
 }
-    
+
 .columnRight {
     width: 20%;
     float: left;
     text-align: center;
     margin: 1%;
-     
+
 
 }
 div.columnRight > p + input {
@@ -819,7 +819,7 @@ div.columnRight > input{
 
 #paises{
     width: 105%;
-    
+
 }
 #ciudad{
     width: 105%;
@@ -842,7 +842,7 @@ div.columnRight > input{
     margin-top: 20px;
     margin-bottom: 20px;
     width: 20%;
-    
+
 
 }/*
 #policy{
@@ -887,9 +887,9 @@ div.wrapper > a > img{
   .wrapper{
 
       width: 280px;
-      margin: 0 auto;  
+      margin: 0 auto;
   }
-      
+
   .headerHome{
       width: 100%;
       float: left;
@@ -898,7 +898,7 @@ div.wrapper > a > img{
       float: left;
       /*width: 100%;*/
       /*max-height: 75px;*/
-      
+
   }
   .headerHome > div > div > a > #user{
       /*width: 50%;*/
@@ -923,7 +923,7 @@ div.wrapper > a > img{
   .headerHome > div > div > img#closeSearch{
     float: left;
     display: none;
-   
+
   }
 
   main{
@@ -947,8 +947,8 @@ div.wrapper > a > img{
   main > div > div > a > .cat > h1{
       text-align: center;
       margin-left: 5%;
-      color: black; 
-      font-size: 150%; 
+      color: black;
+      font-size: 150%;
   }
   .icon-user:before {
   content: "\e971";
@@ -989,15 +989,15 @@ div.wrapper > a > img{
     float: left;
     text-align: center;
     margin-top:1%;
-    
+
 }
-    
+
 .columnRight {
     width: 100%;
     float: left;
     text-align: center;
     margin: 1%;
-     
+
 
 }
 div.columnRight > p + input {
@@ -1013,7 +1013,7 @@ div.columnRight > input{
 
 #paises{
     width: 102%;
-    
+
 }
 #ciudad{
     width: 102%;
@@ -1036,7 +1036,7 @@ div.columnRight > input{
     margin-top: 20px;
     margin-bottom: 20px;
     width: 20%;
-    
+
 
 }
 #policy{
@@ -1098,8 +1098,8 @@ div.columnRight > input{
   main > div > div > a > .cat > h1{
       text-align: center;
       margin-left: 5%;
-      color: black; 
-      font-size: 200%; 
+      color: black;
+      font-size: 200%;
   }
 
   .icon-user:before {
@@ -1130,7 +1130,7 @@ div.columnRight > input{
   content: "\e914";
   font-size: 450%;
 }
-} 
+}
  /* Cierre media querie tablets */
 /* ------------------------------Apertura media querie desktop mediano */
 
@@ -1169,8 +1169,8 @@ main > a > .cat{
   main > div > div > a > .cat > h1{
       text-align: center;
       margin-left: 5%;
-      color: black; 
-      font-size: 250%; 
+      color: black;
+      font-size: 250%;
   }
   /*.headerHome > .cajitaEspesial{
     width: 25%;
@@ -1209,7 +1209,7 @@ main > a > .cat{
   .wrapper{
     width: 1000px;
     margin: 0 auto;
-   
+
   }
   main > a > .cat{
     /*width: 30%;*/
@@ -1241,8 +1241,8 @@ main > a > .cat{
   main > div > div > a > .cat > h1{
       text-align: center;
       margin-left: 5%;
-      color: black; 
-      font-size: 250%; 
+      color: black;
+      font-size: 250%;
   }
 /*.headerHome > .cajitaEspesial{
   width: 25%;

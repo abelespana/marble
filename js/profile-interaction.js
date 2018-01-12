@@ -63,3 +63,7 @@ function ShowComented() {
   document.getElementById("profileUserComented").style.display="block";
 }
 // Cosa a mejorar: se pueden hacer estos cambios con una sola función con condicionales para no repetir tanto código
+
+function logout(){
+  location.reload();
+}
