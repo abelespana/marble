@@ -1,0 +1,41 @@
+/*---------- Nuevo header y footer -------------------------------------*/
+
+nav#cabecera {
+  width:100%;
+  margin:0 auto;
+  border-bottom: 2px solid black;
+}
+
+#inner-cabecera {
+  width:70%;
+  margin: 0 auto;
+}
+
+#inner-cabecera > img {
+  max-width:30%;
+}
+
+#footer {
+  position:fixed;
+  width:100%;
+  bottom:-10px;
+  background-color:rgb(0,128,182);
+  height:100px;
+}
+
+#wrapper-footer {
+  width:70%;
+  margin: 0 auto;
+}
+
+#footer .legal-info {
+  margin-top:10px;
+  margin-left:15px;
+}
+
+#footer a {
+  text-decoration:none;
+  color: white;
+}
+
+/* Fin del nuevo header y footer */
