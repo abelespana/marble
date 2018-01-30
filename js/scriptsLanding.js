@@ -7,15 +7,14 @@ $( document ).ready( function(){
 
 			$("#usernameLanding").css("display", "block") = true;
 
-			
-	
 		}
+
 		if($("#passwordLanding").css("display", "block") == false){
 
 			$("#passwordLanding").css("display", "block") = true;
 
-	
 		}
+		
 		if($("#submitLanding").css("display", "block") == false){
 
 		$("#submitLanding").css("display", "block") = true;

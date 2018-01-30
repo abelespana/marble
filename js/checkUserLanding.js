@@ -5,6 +5,14 @@ function CheckUser(){
 
   if (password != "" && username != "") {
     ShowUserInfo(username);
+
+    // sessionStorage --> Almaceno un id
+    if(username == "abel")
+    {
+    	// Almaceno un 1
+    }
+
+    // Cargar otra pagina (window.location)
   }
   else {
     errorField.style.display = "block";
