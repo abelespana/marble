@@ -199,7 +199,7 @@
   font-family: 'home' !important;
   speak: none;
 
-  color: black;
+  color: rgb(0, 128, 182);
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -587,38 +587,39 @@ main > div > div > a > .cat > div{
     /*width: 30%;*/
     margin-left: 35%;
     margin-top: 20px;
+    
     transition: 3s;
 }
 
 main > div > div > a > .cat > h1{
     text-align: center;
     margin-left: 5%;
-    color: black;
+    
     font-size: 250%;
 }
 
 main > div > div > a > #lit{
-  background-color: aqua;
+  background-color: rgb(237, 106, 90);
   border: 3px solid black;
 }
 main > div > div > a > #the{
-  background-color: pink;
+  background-color: rgb(237, 106, 90);
   border: 3px solid black;
 }
 main > div > div > a > #pho{
-  background-color: orange;
+  background-color: rgb(237, 106, 90);
   border: 3px solid black;
 }
 main > div > div > a > #pai{
-  background-color: mediumpurple;
+  background-color: rgb(237, 106, 90);
   border: 3px solid black;
 }
 main > div > div > a > #mus{
-  background-color: forestgreen;
+  background-color: rgb(237, 106, 90);
   border: 3px solid black;
 }
 main > div > div > a > #cin{
-  background-color: cornflowerblue;
+  background-color: rgb(237, 106, 90);
   border: 3px solid black;
 }
 
@@ -650,11 +651,89 @@ div#cin:hover > div{
 
 /*------------------CÓDIGO PARA LA LANDING PAGE----------------------------------*/
 
+#backgroundVideo{
+  max-width: 100%;  
+  position: absolute;
+  z-index: 0;
+}
 
+.buttonLanding{
 
+  width: 60%;
+  height: 40px;
+  margin-left: 20%;
+  margin-top: 20px;
+  border: 2px rgb(0, 128, 182) solid;
+  background-color: rgb(237, 106, 90);
+  color: rgb(0, 128, 182);
+  font-size: 1.3em;
+  text-align: center;
+}
 
+.buttonLanding > p{
+  margin: 10px;
+}
 
+#landingWindow {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
 
+#landingWindowContent {
+  background-color: rgb(0, 0, 0);
+  padding: 15px;
+  width: calc(30% - 15px);
+  margin-top: 80px;
+  margin-left: 36%;
+}
+
+#introLanding{
+  text-align: center;
+  font-size: 1.3em;
+  color: white;
+}
+#landingWindowContent > img {
+  width:75%;
+  margin-left:12.5%;
+  margin-bottom:18px;
+}
+
+.landingWindowField {
+  width:50%;
+  margin-top: 10px;
+  margin-left:25%;
+  margin-bottom:5px;
+  margin-right:15%;
+  
+}
+.landingLink{
+  text-decoration: none;
+
+}
+.landingWindowFieldError {
+  color:red;
+  font-size: 1em;
+  font-style:italic;
+  display: none;
+  text-align: center;
+}
+
+#usernameLanding{
+  display: none;
+}
+#passwordLanding{
+  display: none;
+}
+#submitLanding{
+  width:20%;
+  margin-left: 40%;
+  display: none;
+}
 
 /*------------------FIN DEL CÓDIGO PARA LA LANDING PAGE----------------------------------*/
 
