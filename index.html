@@ -1,150 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Home</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Marble - Entra o regístrate</title>
 </head>
-<body>
-    
-  <div class="wrapper">
+<body class="landingPage">
+	<video id="backgroundVideo" src="media/fusionado.mp4" autoplay loop=""></video>
 
-        <header class="headerHome" style="background-color:aquamarine;">
+	
 
-          <div class="container-fluid">
+ 		<div id="landingWindow">
+		    <div id="landingWindowContent">
+		      	<img src="img/logoMarble.png" alt="LogoMarble">
 
-            <div class="row">
+		      	<p id="introLanding">¡Esto es Marble, un foro de discusión en el que podrás compartir y contrastar tus conocimientos sobre cualquier disciplina artística!</p>
 
-              <a href="index.html">
+		      	<div class="buttonLanding" id="enterLanding"><p>Entrar</p></div>
 
-                  <img src="img/logoMarble.png" alt="marble" class="col-xs-6 col-sm-4 col-md-3 col-lg-3" id="logo" >
+		      	<input id="usernameLanding" class="landingWindowField" type="textarea" name="username" placeholder="Nombre de usuario">
+		      	<input id="passwordLanding" class="landingWindowField" type="password" name="password" placeholder="Contraseña">
+		      	<input id="submitLanding" type="submit" value ="Entrar" onclick="CheckUser()">
+		      	<p id="errorMessage" class="landingWindowFieldError">Campos erróneos o vacios</p>
 
-              </a>
+		      	<a class="landingLink" href="register.html">
+		      		<div class="buttonLanding" id="registerLanding">
+		      			<p>Registrarse</p>
+		      		</div>
+		      	</a>
 
-              <a href="profile.html"> 
+		      	<a class="landingLink" href="home.html">
+		      		<div class="buttonLanding" id="notRegisterLanding">
+		      			<p>Entrar sin registrarse</p>
+		      		</div>
+		      	</a>
+		      	
+		    </div>
+		</div>
 
-                  <div class="icon-user col-xs-1 col-sm-1 col-md-1 col-lg-1 col-sm-offset-1 col-md-offset-2 col-lg-offset-2" id="user"></div>
+ 	
 
-              </a>  
 
-                <div class="icon-search col-xs-1 col-xs-offset-2" id="search"></div>
-
-                <input type="search" class="cajitaEspesial col-xs-9 col-sm-3 col-md-3 col-lg-3 col-sm-offset-2 col-md-offset-2 col-lg-offset-2" id="searchBox">
-
-                <img src="img/equis.png" alt="close" class="col-xs-3" id="closeSearch">
-
-                <input type="submit" value="Buscar" class="buttonSearch col-sm-1 col-md-1 col-lg-1" id="buttonSearch">
-
-            </div>
-
-          </div>
-         
-        </header>
-        
-        <main>
-
-          <div class="container-fluid">
-
-            <div class="row">
-
-              <h3 class="text-center">¡Esto es Marble, un foro de discusión en el que podrás compartir y contrastar tus conocimientos sobre cualquier disciplina artística!</h3>
-
-              <a href="category.html">
-                      
-                <div class="cat col-xs-12 col-sm-6 col-md-4 col-lg-4" id="lit">
-
-                  <div class="icon-book" id="icon-book"></div>
-
-                  <h1>Literatura</h1>
-
-                </div>
-
-              </a>
-
-              <a href="category.html"> 
-
-                <div class="cat col-xs-12 col-sm-6 col-md-4 col-lg-4" id="the">
-
-                  <div class="icon-theatre"></div>
-
-                  <h1>Teatro</h1>
-
-                </div>
-
-              </a>
-
-              <a href="category.html">  
-
-                <div class="cat col-xs-12 col-sm-6 col-md-4 col-lg-4" id="pho">
-
-                  <div class="icon-camera"></div>
-
-                  <h1>Fotografía</h1>
-
-                </div>
-
-              </a>
-
-              <a href="category.html">
-
-                <div class="cat col-xs-12 col-sm-6 col-md-4 col-lg-4" id="pai">
-
-                  <div class="icon-pencil2"></div>
-
-                  <h1>Pintura</h1>
-
-                </div>
-
-              </a>
-
-              <a href="category.html">
-
-                <div class="cat col-xs-12 col-sm-6 col-md-4 col-lg-4" id="mus">
-
-                  <div class="icon-music"></div>
-
-                  <h1>Música</h1>
-
-                </div>
-
-              </a>
-
-              <a href="category.html">
-
-                <div class="cat col-xs-12 col-sm-6 col-md-4 col-lg-4" id="cin">
-
-                  <div class="icon-video-camera"></div>
-
-                  <h1>Cine</h1>
-
-                </div>
-
-              </a>
-
-            </div>
-
-          </div>
-
-        </main>
-    <footer>
-    <div class="wrapper">
-      <small>You accept the <a href="privacyPolicyPage">privacy policy</a> as well as the <a href="cookiePolicyPage">cookie policy</a>.Síguenos en las redes sociales</small>
-   
-        <span class="icon2-TW" aria-hidden="true"><a title="Twitter" href="https://twitter.com/" target="_blank"></a></span>
-        <span class="icon2-FB"><a title="Facebook" href="https://es-es.facebook.com/" target="_blank"></a></span>
-        <span class="icon2-Gplus"><a title="Google+" href="https://plus.google.com/discover?hl=es" target="_blank"></a></span>
-   
-        <span>Descárgate nuestra app gratuita</span><img src="img/logoMarble.png" alt="logo">
-    </div> 
-</footer>
-  </div>
-  
-  <script src="js/jquery-3.2.1.min.js"></script>   
-  <script src="js/scriptsHome.js"></script>  
-
+ 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+ 	<script type="text/javascript" src="js/checkUserLanding.js"></script>
+ 	<script type="text/javascript" src="js/scriptsLanding.js"></script>
 </body>
 </html>
