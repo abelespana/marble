@@ -1056,7 +1056,7 @@ div.columnRight > input{
 
 
 
-/* ____________________media querie Blanca___________ */
+/* ____________________media querie peque Blanca___________ */
 
 
 .theme {
@@ -1343,7 +1343,7 @@ height: 150px;
 
 
 
-/*Fin del código de Blan media querie*/
+/*Fin del código de Blan media querie peque*/
 
 }
 
@@ -1423,6 +1423,231 @@ height: 150px;
   content: "\e914";
   font-size: 450%;
 }
+
+/* --------------------Movidas de Blanca media querie tablet */
+
+.theme {
+  width: 100%;
+  margin: 0 auto;
+  float: left;
+}
+div.theme > h1{
+    text-align: center;
+}
+div.theme > img{
+    max-width: 100%;
+    margin-left: 50%; /*preguntar al profe*/
+}
+.bloque{
+  width: 100%;
+  float: left;
+}
+.user{
+    width: 15%;
+    float: left;
+    margin-right: 3%;
+    max-width: 100%;
+}
+.time {
+    color: grey;
+    float: left;
+}
+
+.topic{
+    width: 72%;
+    float: left;
+}
+.fecha{
+    color: grey;
+}
+.info{
+    width: 10%;
+    float: left;
+}
+.flechas{
+    height: 127px;
+}
+.stats{
+    width: 33%;
+    display: block;
+    margin: 0 auto;
+}
+.text-stats{
+    display: block;
+    margin: 0 auto;
+}
+div.flechas > a{
+    text-decoration: none;
+    text-align: center;
+}
+
+.imgRedonda {
+  width:150px;
+  height:150px;
+  border-radius:150px;
+}
+
+.debate-title{
+  width: 100%;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.debate-title > h1 {
+  float: left;
+  width: 80%;
+}
+
+.temaIcon{
+  float: left;
+  width: 10%;
+  margin-left: 7%;
+  margin-right: 3%;
+}
+
+.debate-title{
+  width: 100%;
+  float: left;
+}
+
+.debate-title > img{
+  float: left;
+  max-width: 100%;
+  margin-top: 8%;
+}
+
+.debate-title > h1 {
+  float: left;
+  width: 80%;
+}
+
+.debate-main {
+  width: 100%;
+  float:left;
+}
+
+.user-debate{
+  width: 20%;
+  float: left;
+}
+
+.user-debate > a > img{
+float: left;
+max-width: 100%;
+}
+
+.debate-main > .user-debate > h4{
+}
+
+.debate-main > .user-debate > p{
+  margin-left: 15px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.comment{
+  width: 80%;
+  float: left;
+}
+
+.debate-main > .comment > .comment1 > p{
+  margin-top: 10%;
+}
+
+.social-profile-icons > ul{
+  float: right;
+  width: 50%;
+  margin-left: 50%;
+  margin-top: 10%;
+}
+
+.social-profile-icons{
+  width: 100%;
+}
+.social-profile-icons > ul > li {
+  float: right;
+  list-style-type: none;
+  margin-left: 6%;
+}
+
+.social-profile-icons > ul > li > a{
+  text-decoration: none;
+}
+
+.respondComment{
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.comment > .social-profile-icons > ul > li > a > img{
+  width: 30px;
+  float: left;
+}
+.comment > .social-profile-icons > ul{
+  float: right;
+}
+.answers{
+  width: 90%;
+  margin-left: 10%;
+  border-left: 6px solid #333;
+  float: left;
+}
+
+/* Modal Header */
+.modal-header {
+    padding: 2px 16px;
+    background-color: aqua;
+    color: white;
+}
+
+/* Modal Body */
+.modal-body {padding: 2px 16px;
+height: 150px;
+}
+
+.modal-body > input{
+  height: 130px;
+  margin-top: 5px;
+  border:0;
+}
+
+/* Modal Footer */
+.modal-footer {
+    padding: 2px 16px;
+    background-color: aqua;
+    color: white;
+}
+
+/* Modal Content */
+.modal-content {
+    position: absolute;
+    background-color: white;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    display: none;
+}
+
+/* Add Animation */
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+
+#PiePaginaBlanca{
+
+  bottom: 0;
+  margin-left: 50%;
+}
+
+/*Fin del código de Blan media querie tablet*/
+
 }
  /* Cierre media querie tablets */
 /* ------------------------------Apertura media querie desktop mediano */
