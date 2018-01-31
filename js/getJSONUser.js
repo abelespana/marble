@@ -1,7 +1,4 @@
-	
-function pedirUsuario(id) {
-
-	var elUsuario; 
+function pedirUsuario(id, funcionGuardadora) {
 
 	$.ajax({
 		url: "http://www.abelespana.es/datos/usuario" + id + ".json", //Url de peticion.
@@ -13,26 +10,69 @@ function pedirUsuario(id) {
 		//Codigo a ejecutar si la peticion es satisfactoria
 		//La respuesta debe ser pasada como argumento a la siguiente funcion:
 	success : function(json){
-		elUsuario = json;
-		// console.log(elUsuario);
-		return elUsuario;
-		// Nota para los Abel, Mikel y Rober de esta noche o de mañana --> La petición por AJAX se completa como Dios manda, pero la función success no devuelve nada, pese al return. De modo que lo que entra en success sale en un console.log dentro del mismo success (línea 17) pero no sale de ahí pese al return (línea 18)
+		var elUsuario = json;
+		console.log(elUsuario);
+		funcionGuardadora(elUsuario);
+		
 	},
 
 		//Codigo a ejecutar si la peticion falla, pasar como argumentos a la funcion.
 		//El objeto y el codigo de status-- pasarlos x parametros.
 	error : function(data,xhr,status){
-			alert("Disculpe, existió un problema en peticion"+ data + " " + xhr.value + " " + status);
+			console.log("Disculpe, existió un problema en peticion"+ data + " " + xhr.value + " " + status);
 		}
 	});
-
-return elUsuario;
+}
+function guardarUsuario(datos){
+	//En sessionStorage guardamos un item, con identificador nombre y el parámetro que venga. 
+	window.sessionStorage.setItem("nombre", datos.name);
+	window.sessionStorage.setItem("username", datos.username);
+	window.sessionStorage.setItem("edad",datos.age);
+	window.sessionStorage.setItem("pais",datos.country);
+	window.sessionStorage.setItem("postre",datos.favouritedessert);
 }
 
-// console.log(pedirUsuario(1));
-// Recupero de mi sessionStorage el id
+pedirUsuario("1", guardarUsuario);
+pedirUsuario("mikel", guardarUsuario);
 
+
+// alert(window.sessionStorage.nombre);
+// alert(window.sessionStorage.edad);
+// alert(window.sessionStorage.pais);
+// alert(window.sessionStorage.postre);
+
+
+
+/*function actualizarUsuario(user) {
+
+	window.sessionStorage.setItem("nombre",user);
+	//En sessionStorage guardamos un item, con identificador nombre y el parámetro que venga. 
+	var output = window.sessionStorage.nombre;
+	console.log(output);
+	// Trazas para mostrar por consola
+}*/
+
+
+
+function actualizarUsuario(user) {
+
+	window.sessionStorage.setItem("nombre",user);
+	//En sessionStorage guardamos un item, con identificador nombre y el parámetro que venga. 
+	var output = window.sessionStorage.nombre;
+	console.log(output);
+	// Trazas para mostrar por consola
+}
+
+
+// Cuando yo quiera lanzar la peticion AJAX...
+// pedirUsuario(1,actualizarUsuario);
 
 
 // Pintar a partir de usuarioActual
-//$("#myName").append(usuarioActual.name);
+$("#profileUserInfo").append(sessionStorage.nombre + "<br>");
+$("#profileUserInfo").append(sessionStorage.username + "<br>");
+$("#profileUserInfo").append(sessionStorage.edad + "<br>");
+$("#profileUserInfo").append(sessionStorage.pais + "<br>");
+$("#profileUserInfo").append(sessionStorage.postre + "<br>");
+
+
