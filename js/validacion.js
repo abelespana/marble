@@ -118,11 +118,14 @@ function validaCheck(){
 
 
 
-function validar (e) {
+function validar(evento) {
+
+	evento.preventDefault();
+	
 	if(validaNombre() == true && validaContraseña() == true && validaRepitaContraseña() == true && validaEmail() == true && validaCheck() == true &&  confirm("Pulse aceptar si está seguro de enviar el Formulario")) {
 		return true;
 	} else {
-		e.preventDefault();
+		
 		return false ;
 	}
 }
