@@ -648,6 +648,7 @@ height: 150px;
 .headerHome{
    width: 100%;
     float: left;
+    border-bottom: 1px solid black;
 }/*
 .headerHome > a > #logo{
     width: 50%;
@@ -673,7 +674,9 @@ height: 150px;
 .headerHome > div > div > input{
   display: none;
   }
-
+#closeSearch{
+	display: none;
+}
 main{
   width: 100%;
   float: left;
@@ -890,9 +893,12 @@ div#cin:hover > div{
 }
 
 #profileHeader > img {
-  width:25%;
-  margin-left:37.5%;
-	margin-bottom:-20px;
+  width: 200px;
+  height: 200px;
+  transform: rotate(-90deg);
+    margin-left: 40%;
+	margin-bottom: 20px;
+	border-radius: 50%;
 }
 
 #profileHeader > h1 {
@@ -2180,7 +2186,7 @@ main > a > .cat{
     height: 25px;*/
     margin-top: 25px;
   }
-  .headerHome > div > div > img#closeSearch{
+.headerHome > div > div > img#closeSearch{
   display: none;
   }
   main > div > div > a > .cat > h1{

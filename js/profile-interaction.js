@@ -65,5 +65,13 @@ function ShowComented() {
 // Cosa a mejorar: se pueden hacer estos cambios con una sola función con condicionales para no repetir tanto código
 
 function logout(){
-  location.reload();
+  //Limpiar campos de informacion(datos).
+  var confirmar = confirm("¿Seguro que quieres cerrar sesión?");
+  if (confirmar) {
+    //limpia el valor de sesion storage cuando salgo de la página
+    // window.sessionStorage.removeItem("variable");
+    window.sessionStorage.clear();
+    window.location.href="index.html";
+
+  } 
 }
