@@ -3,10 +3,14 @@ function CheckUser(){
   var username = document.getElementById("usernameLanding").value;
   var errorField = document.getElementById("errorMessage");
 
-    if(username == "abel" || username == "mikel"){
-    	window.location.href = "profile.html";
+    if(username == "abel"){
+      window.sessionStorage.setItem("variable","1");
+      window.location.href = "home-logueado.html";
+      
+    }else if(username == "mikel") {
+      window.sessionStorage.setItem("variable","2");
+      window.location.href = "home-logueado.html";
     }
-    // Cargar otra pagina (window.location)
     else {
       errorField.style.display = "block";
     }

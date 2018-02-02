@@ -1,3 +1,5 @@
+var idUsuario = window.sessionStorage.getItem("variable");
+
 function pedirUsuario(id, funcionGuardadora) {
 
 	$.ajax({
@@ -29,50 +31,26 @@ function guardarUsuario(datos){
 	window.sessionStorage.setItem("username", datos.username);
 	window.sessionStorage.setItem("edad",datos.age);
 	window.sessionStorage.setItem("pais",datos.country);
+	window.sessionStorage.setItem("registrado",datos.membersince);
+	window.sessionStorage.setItem("imagen", datos.pic);
 	window.sessionStorage.setItem("postre",datos.favouritedessert);
 }
 
-pedirUsuario("1", guardarUsuario);
-pedirUsuario("mikel", guardarUsuario);
-
-
-// alert(window.sessionStorage.nombre);
-// alert(window.sessionStorage.edad);
-// alert(window.sessionStorage.pais);
-// alert(window.sessionStorage.postre);
-
-
-
-/*function actualizarUsuario(user) {
-
-	window.sessionStorage.setItem("nombre",user);
-	//En sessionStorage guardamos un item, con identificador nombre y el parámetro que venga. 
-	var output = window.sessionStorage.nombre;
-	console.log(output);
-	// Trazas para mostrar por consola
-}*/
-
-
-
-function actualizarUsuario(user) {
-
-	window.sessionStorage.setItem("nombre",user);
-	//En sessionStorage guardamos un item, con identificador nombre y el parámetro que venga. 
-	var output = window.sessionStorage.nombre;
-	console.log(output);
-	// Trazas para mostrar por consola
+if(idUsuario == 1){
+	pedirUsuario("1", guardarUsuario);
+	$("#profilePic").attr("src","http://abelespana.es/datos/profileabel.jpg");
+}else if (idUsuario == 2) {
+	pedirUsuario("2", guardarUsuario);
+	$("#profilePic").attr("src","http://abelespana.es/datos/profilemikel.jpg");
+}
+else {
+	alert("No hay usuario");
 }
 
-
-// Cuando yo quiera lanzar la peticion AJAX...
-// pedirUsuario(1,actualizarUsuario);
-
-
-// Pintar a partir de usuarioActual
-$("#profileUserInfo").append(sessionStorage.nombre + "<br>");
-$("#profileUserInfo").append(sessionStorage.username + "<br>");
-$("#profileUserInfo").append(sessionStorage.edad + "<br>");
-$("#profileUserInfo").append(sessionStorage.pais + "<br>");
-$("#profileUserInfo").append(sessionStorage.postre + "<br>");
-
-
+// Pintar los elementos
+$("#myName").append(" " + sessionStorage.nombre + "<br>");
+$("#myNickname").append(" " + sessionStorage.username +"<br>");
+$("#myAge").append(" " + sessionStorage.edad + "<br>");
+$("#myCountry").append(" " + sessionStorage.pais + "<br>");
+$("#whenRegistered").append(" " + sessionStorage.registrado + "<br>");
+$("#myName,#myNickname,#whenRegistered,#myAge,#myCountry").show();
