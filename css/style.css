@@ -314,6 +314,21 @@ footer > div.wrapper > img{
 
 /* Movidas de Blanca */
 
+.team{
+  width: 100%;
+  float: left;
+}
+.contacto{
+  width: 100%;
+  float: left;
+}
+
+.teamBit{
+  float:left;
+  width: 20%;
+  margin-right: 2%;
+}
+
 .theme {
   width: 100%;
   margin: 0 auto;
