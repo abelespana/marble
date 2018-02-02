@@ -692,6 +692,17 @@ height: 150px;
 #closeSearch{
 	display: none;
 }
+#search{
+  display: none;
+}
+#searchBox{
+  display: block;
+   margin-top: -25px;
+}
+#buttonSearch{
+  display: block;
+  margin-top: -25px;
+}
 main{
   width: 100%;
   float: left;
@@ -1153,7 +1164,12 @@ RESPUESTA: es el logo de Rober; */
     float: left;
     display: none;
   }
-
+  #searchBox{
+    display: none;
+  }
+  #buttonSearch{
+    display: none;
+  }
   main{
       width: 100%;
       float: left;
@@ -1701,7 +1717,14 @@ height: 150px;
       color: black;
       font-size: 200%;
   }
-
+  #searchBox{
+    display: block;
+    
+  }
+  #buttonSearch{
+    display: block;
+   
+  }
   .icon-user:before {
   content: "\e971";
   font-size: 350%;
