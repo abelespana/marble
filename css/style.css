@@ -841,6 +841,7 @@ div#cin:hover > div{
   width: calc(30% - 15px);
   margin-top: 80px;
   margin-left: 36%;
+   border-radius: 20px;
 }
 
 #introLanding{
