@@ -178,9 +178,11 @@
 
 .icon3-search:before {
   content: "\e986";
+      color: #0080b6
 }
 .icon3-plus:before {
   content: "\ea0a";
+      color: #0080b6
 }
 
 @font-face {
@@ -284,7 +286,7 @@ footer{
   margin-bottom: 10px;
   width: 100%;
   float: left;
-  color: gray;
+  color: #0080b6
 }
 
 footer > a{
@@ -314,6 +316,10 @@ footer > div.wrapper > img{
 
 /* Movidas de Blanca */
 
+
+.topic > a{
+      color: #0080b6;
+}
 .team{
   width: 100%;
   float: left;
@@ -426,8 +432,12 @@ div.flechas > a{
 }
 
 .debate-main {
-	width: 100%;
-	float:left;
+    width: 100%;
+    float: left;
+    background-color: #0080b638;
+    margin-bottom: 15px;
+    padding: 10px;
+        border-radius: 20px;
 }
 
 .user-debate{
@@ -462,7 +472,7 @@ max-width: 100%;
 	float: right;
   width: 50%;
   margin-left: 50%;
-	margin-top: 10%;
+	margin-top: 2%;
 }
 
 .social-profile-icons{
@@ -495,7 +505,7 @@ max-width: 100%;
 .answers{
   width: 90%;
 	margin-left: 10%;
-	border-left: 6px solid #333;
+	border-left: 6px solid #0080b6;
 	float: left;
 }
 
@@ -521,9 +531,10 @@ max-width: 100%;
     background-color: #fefefe;
     margin: auto;
     padding: 20px;
-    border: 1px solid #888;
+    border: 1px solid #ff844d;
     width: 80%;
     height: 146px;
+        border-radius: 20px;
 }
 
 /* The Close Button user-card */
@@ -605,8 +616,13 @@ button.userCardBoton:hover {
 /* Modal  Header */
 .modal-header {
     padding: 2px 16px;
-    background-color: aqua;
+    background-color: rgba(255, 132, 77, 0.52);
     color: white;
+}
+.equisita{
+    float: right;
+    font-size: 254%;
+    margin-right: 2%;
 }
 
 /* Modal Body */
@@ -618,12 +634,13 @@ height: 150px;
   height: 130px;
   margin-top: 5px;
   border:0;
+      width: 100%;
 }
 
 /* Modal Footer */
 .modal-footer {
     padding: 2px 16px;
-    background-color: aqua;
+    background-color: rgba(255, 132, 77, 0.52);
     color: white;
 }
 
@@ -633,7 +650,7 @@ height: 150px;
     background-color: white;
     margin: auto;
     padding: 0;
-    border: 1px solid #888;
+    border: 1px solid #ff844d;
     width: 50%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     animation-name: animatetop;
@@ -714,28 +731,34 @@ main > div > div > a > .cat > h1{
 }
 
 main > div > div > a > #lit{
-  background-color: rgb(237, 106, 90);
-  border: 3px solid black;
+  background-color: rgb(255, 132, 77);
+  border: 3px solid #0080b6;
+    border-radius: 20px;
 }
 main > div > div > a > #the{
-  background-color: rgb(237, 106, 90);
-  border: 3px solid black;
+  background-color: rgb(255, 132, 77);
+  border: 3px solid #0080b6;
+    border-radius: 20px;
 }
 main > div > div > a > #pho{
-  background-color: rgb(237, 106, 90);
-  border: 3px solid black;
+  background-color: rgb(255, 132, 77);
+  border: 3px solid #0080b6;
+    border-radius: 20px;
 }
 main > div > div > a > #pai{
-  background-color: rgb(237, 106, 90);
-  border: 3px solid black;
+  background-color: rgb(255, 132, 77);
+  border: 3px solid #0080b6;
+    border-radius: 20px;
 }
 main > div > div > a > #mus{
-  background-color: rgb(237, 106, 90);
-  border: 3px solid black;
+  background-color: rgb(255, 132, 77);
+  border: 3px solid #0080b6;
+    border-radius: 20px;
 }
 main > div > div > a > #cin{
-  background-color: rgb(237, 106, 90);
-  border: 3px solid black;
+  background-color: rgb(255, 132, 77);
+  border: 3px solid #0080b6;
+    border-radius: 20px;
 }
 
 div#lit:hover > div{
@@ -779,10 +802,12 @@ div#cin:hover > div{
   margin-left: 20%;
   margin-top: 20px;
   border: 2px rgb(0, 128, 182) solid;
-  background-color: rgb(237, 106, 90);
+  background-color: rgb(238, 116, 65);
   color: rgb(0, 128, 182);
   font-size: 1.3em;
   text-align: center;
+      border-radius: 20px;
+          padding: 6px;
 }
 
 .buttonLanding > p{
@@ -800,7 +825,7 @@ div#cin:hover > div{
 }
 
 #landingWindowContent {
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(53, 66, 115, 0.44);
   padding: 15px;
   width: calc(30% - 15px);
   margin-top: 80px;
@@ -1020,21 +1045,30 @@ div.columnRight > p + input {
     width:100%;
     float: left;
 
+
 }
 div.columnRight > input{
     width: 100%;
     float: left;
+        border-radius: 20px;
+    padding: 5px;
 }
 
 #paises{
     width: 105%;
+        border-radius: 20px;
+    padding: 5px;
 
 }
 #ciudad{
     width: 105%;
+        border-radius: 20px;
+    padding: 5px;
 }
 #description{
     width: 100%;
+        border-radius: 20px;
+    padding: 5px;
 }
 
 /*.rightText{
@@ -1051,6 +1085,8 @@ div.columnRight > input{
     margin-top: 20px;
     margin-bottom: 20px;
     width: 20%;
+        border-radius: 20px;
+    padding: 15px;
 
 
 }/*
@@ -1237,12 +1273,18 @@ div.columnRight > input{
 
 #paises{
     width: 102%;
+        border-radius: 20px;
+    padding: 5px;
 }
 #ciudad{
     width: 102%;
+        border-radius: 20px;
+    padding: 5px;
 }
 #description{
     width: 100%;
+        border-radius: 20px;
+    padding: 5px;
 }
 
 .rightText{
@@ -1297,6 +1339,7 @@ div.theme > img{
 
 .topic > a > h2{
   font-size: 100%;
+  text-decoration-color: #0080b6;
 }
 .topic > p {
   font-size: 80%;
@@ -1392,8 +1435,12 @@ div.flechas > a{
 }
 
 .debate-main {
-  width: 100%;
-  float:left;
+     width: 100%;
+    float: left;
+    background-color: #0080b638;
+    margin-bottom: 15px;
+    padding: 10px;
+        border-radius: 20px;
 }
 
 .user-debate{
@@ -1433,7 +1480,7 @@ display: none;
   float: right;
   width: 50%;
   margin-left: 50%;
-  margin-top: 10%;
+  margin-top: 2%;
 }
 
 .social-profile-icons{
@@ -1464,7 +1511,7 @@ display: none;
 .answers{
   width: 90%;
   margin-left: 10%;
-  border-left: 6px solid #333;
+  border-left: 6px solid #0080b6;
   float: left;
 }
 
@@ -1490,9 +1537,10 @@ Modal Content
     background-color: #fefefe;
     margin: auto;
     padding: 20px;
-    border: 1px solid #888;
+    border: 1px solid #ff844d;
     width: 80%;
     height: 119px;
+        border-radius: 20px;
 }
 
 The Close Button user-card
@@ -1555,8 +1603,14 @@ button.userCardBoton:hover {
 /* Modal Header */
 .modal-header {
     padding: 2px 16px;
-    background-color: aqua;
+    background-color: rgba(255, 132, 77, 0.52);
     color: white;
+}
+
+.equisita{
+      float: right;
+    font-size: 254%;
+    margin-right: 2%;
 }
 
 /* Modal Body */
@@ -1568,12 +1622,13 @@ height: 150px;
   height: 130px;
   margin-top: 5px;
   border:0;
+      width: 100%;
 }
 
 /* Modal Footer */
 .modal-footer {
     padding: 2px 16px;
-    background-color: aqua;
+    background-color: rgba(255, 132, 77, 0.52);
     color: white;
 }
 
@@ -1583,7 +1638,7 @@ height: 150px;
     background-color: white;
     margin: auto;
     padding: 0;
-    border: 1px solid #888;
+    border: 1px solid #ff844d;
     width: 50%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     animation-name: animatetop;
@@ -1669,6 +1724,7 @@ height: 150px;
   }
   .bloque > div.topic > a > h2{
       font-size: 1em;
+
   }
   .headerHome > div > div > a > #user{
   float: left;
@@ -1830,8 +1886,12 @@ div.flechas > a{
 }
 
 .debate-main {
-  width: 100%;
-  float:left;
+     width: 100%;
+    float: left;
+    background-color: #0080b638;
+    margin-bottom: 15px;
+    padding: 10px;
+        border-radius: 20px;
 }
 
 .user-debate{
@@ -1866,7 +1926,7 @@ max-width: 100%;
   float: right;
   width: 50%;
   margin-left: 50%;
-  margin-top: 10%;
+  margin-top: 2%;
 }
 
 .social-profile-icons{
@@ -1897,7 +1957,7 @@ max-width: 100%;
 .answers{
   width: 90%;
   margin-left: 10%;
-  border-left: 6px solid #333;
+  border-left: 6px solid #0080b6;
   float: left;
 }
 
@@ -1923,9 +1983,10 @@ max-width: 100%;
     background-color: #fefefe;
     margin: auto;
     padding: 20px;
-    border: 1px solid #888;
+    border: 1px solid #ff844d;
     width: 80%;
     height: 200px;
+        border-radius: 20px;
 }
 
 /* The Close Button user-card */
@@ -2003,8 +2064,13 @@ button.userCardBoton:hover {
 /* Modal Header */
 .modal-header {
     padding: 2px 16px;
-    background-color: aqua;
+    background-color: rgba(255, 132, 77, 0.52);
     color: white;
+}
+.equisita{
+      float: right;
+    font-size: 254%;
+    margin-right: 2%;
 }
 
 /* Modal Body */
@@ -2016,12 +2082,13 @@ height: 150px;
   height: 130px;
   margin-top: 5px;
   border:0;
+      width: 100%;
 }
 
 /* Modal Footer */
 .modal-footer {
     padding: 2px 16px;
-    background-color: aqua;
+    background-color: rgba(255, 132, 77, 0.52);
     color: white;
 }
 
@@ -2031,7 +2098,7 @@ height: 150px;
     background-color: white;
     margin: auto;
     padding: 0;
-    border: 1px solid #888;
+    border: 1px solid #ff844d;
     width: 50%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     animation-name: animatetop;
@@ -2341,8 +2408,12 @@ div.flechas > a{
 }
 
 .debate-main {
-  width: 100%;
-  float:left;
+      width: 100%;
+    float: left;
+    background-color: #0080b638;
+    margin-bottom: 15px;
+    padding: 10px;
+        border-radius: 20px;
 }
 
 .user-debate{
@@ -2377,7 +2448,7 @@ max-width: 100%;
   float: right;
   width: 50%;
   margin-left: 50%;
-  margin-top: 10%;
+  margin-top: 2%;
 }
 
 .social-profile-icons{
@@ -2410,7 +2481,7 @@ max-width: 100%;
 .answers{
   width: 90%;
   margin-left: 10%;
-  border-left: 6px solid #333;
+  border-left: 6px solid #0080b6;
   float: left;
 }
 
@@ -2436,9 +2507,10 @@ max-width: 100%;
     background-color: #fefefe;
     margin: auto;
     padding: 20px;
-    border: 1px solid #888;
+    border: 1px solid #ff844d;
     width: 80%;
     height: 146px;
+        border-radius: 20px;
 }
 
 /* The Close Button user-card */
@@ -2520,8 +2592,13 @@ button.userCardBoton:hover {
 /* Modal  Header */
 .modal-header {
     padding: 2px 16px;
-    background-color: aqua;
+    background-color: rgba(255, 132, 77, 0.52);
     color: white;
+}
+.equisita{
+      float: right;
+    font-size: 254%;
+    margin-right: 2%;
 }
 
 /* Modal Body */
@@ -2533,12 +2610,13 @@ height: 150px;
   height: 130px;
   margin-top: 5px;
   border:0;
+      width: 100%;
 }
 
 /* Modal Footer */
 .modal-footer {
     padding: 2px 16px;
-    background-color: aqua;
+    background-color: rgba(255, 132, 77, 0.52);
     color: white;
 }
 
@@ -2548,7 +2626,7 @@ height: 150px;
     background-color: white;
     margin: auto;
     padding: 0;
-    border: 1px solid #888;
+    border: 1px solid #ff844d;
     width: 50%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     animation-name: animatetop;
