@@ -709,6 +709,21 @@ height: 150px;
 #closeSearch{
 	display: none;
 }
+#search{
+  display: none;
+}
+#searchBox{
+  display: block;
+   margin-top: -25px;
+    border-radius: 20px;
+    padding: 0.1%;
+}
+#buttonSearch{
+  display: block;
+  margin-top: -25px;
+      border-radius: 20px;
+    padding: 0.1%;
+}
 main{
   width: 100%;
   float: left;
@@ -731,32 +746,32 @@ main > div > div > a > .cat > h1{
 }
 
 main > div > div > a > #lit{
-  background-color: rgb(255, 132, 77);
+  background-color: rgba(255, 132, 77, 0.88);
   border: 3px solid #0080b6;
     border-radius: 20px;
 }
 main > div > div > a > #the{
-  background-color: rgb(255, 132, 77);
+  background-color: rgba(255, 132, 77, 0.88);
   border: 3px solid #0080b6;
     border-radius: 20px;
 }
 main > div > div > a > #pho{
-  background-color: rgb(255, 132, 77);
+  background-color: rgba(255, 132, 77, 0.88);
   border: 3px solid #0080b6;
     border-radius: 20px;
 }
 main > div > div > a > #pai{
-  background-color: rgb(255, 132, 77);
+  background-color: rgba(255, 132, 77, 0.88);
   border: 3px solid #0080b6;
     border-radius: 20px;
 }
 main > div > div > a > #mus{
-  background-color: rgb(255, 132, 77);
+  background-color: rgba(255, 132, 77, 0.88);
   border: 3px solid #0080b6;
     border-radius: 20px;
 }
 main > div > div > a > #cin{
-  background-color: rgb(255, 132, 77);
+  background-color: rgba(255, 132, 77, 0.88);
   border: 3px solid #0080b6;
     border-radius: 20px;
 }
@@ -789,10 +804,27 @@ div#cin:hover > div{
 
 /*------------------CÓDIGO PARA LA LANDING PAGE----------------------------------*/
 
+.cajitaForm{
+  width: 100%;
+
+}
+
 #backgroundVideo{
   max-width: 100%;  
   position: absolute;
   z-index: 0;
+}
+#backgroundVideo2{
+  max-width: 100%;  
+  position: absolute;
+  z-index: -1;
+      opacity: 0.5;
+}
+#backgroundVideo3{
+  max-width: 100%;  
+  position: absolute;
+  z-index: -1;
+      opacity: 0.5;
 }
 
 .buttonLanding{
@@ -927,9 +959,9 @@ div#cin:hover > div{
 #profileHeader {
   width:100%;
   float:left;
-  border-bottom-style:solid;
-  border-bottom-width:1px;
-  border-bottom-color:black;
+/*   border-bottom-style:solid;
+border-bottom-width:1px;
+border-bottom-color:black; */
   margin-bottom:15px;
 }
 
@@ -951,9 +983,9 @@ div#cin:hover > div{
   width:100%;
   margin:0 auto;
   float:left;
-  border-style:solid;
+  /* border-style:solid;
   border-width:1px;
-  border-color:black;
+  border-color:black; */
 }
 
 #profileTabSwitcher{
@@ -961,7 +993,7 @@ div#cin:hover > div{
   margin:0 auto;
   float:left;
   padding:0;
-  border-bottom: 1px solid black;
+ /*  border-bottom: 1px solid black; */
   margin-bottom:25px;
 }
 
@@ -976,11 +1008,16 @@ ul#profileTabSwitcher li {
   list-style-type:none;
   width:33.33%;
   float:left;
-  background-color:grey;
+  background-color: #ff844d;
   text-align:center;
   color:white;
   height:30px;
   line-height:30px;
+}
+#profileText{
+      background-color: #ff844d70;
+    border-radius: 20px;
+     padding:15px;
 }
 
 ul#profileTabSwitcher > li > a {
@@ -988,30 +1025,33 @@ ul#profileTabSwitcher > li > a {
   color:white;
 }
 
-#profileText {
-  padding:15px;
-}
 
 #profileText p {
   margin-top:4px;
 }
 
-
 #profileUserInfo input {
 	margin-bottom:15px;
+      border-radius: 20px;
+    padding: 1%;
+    width: 15%;
 }
 
 #profileUserInfo > .barraSeparadora {
 	width:100%;
-	background-color:black;
+	background-color:#0080b6;
 	height:2px;
 	display:none;
 	margin: 15px 0;
+}
+#profileUserVisited > a, #profileUserVoted > a, #profileUserComented > a{
+      color: #0080b6;
 }
 
 #profileUserVisited, #profileUserVoted, #profileUserComented {
 	line-height:35px;
 	display:none;
+
 }
 
 .userInfoDetailed {
@@ -1190,7 +1230,12 @@ RESPUESTA: es el logo de Rober; */
     float: left;
     display: none;
   }
-
+  #searchBox{
+    display: none;
+  }
+  #buttonSearch{
+    display: none;
+  }
   main{
       width: 100%;
       float: left;
@@ -1758,7 +1803,17 @@ height: 150px;
       color: black;
       font-size: 200%;
   }
-
+  #searchBox{
+    display: block;
+        border-radius: 20px;
+    padding: 0.1%;
+    
+  }
+  #buttonSearch{
+    display: block;
+       border-radius: 20px;
+    padding: 0.1%;
+  }
   .icon-user:before {
   content: "\e971";
   font-size: 350%;
