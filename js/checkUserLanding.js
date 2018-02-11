@@ -1,4 +1,4 @@
-function CheckUser(){
+document.getElementById('submitLanding').addEventListener('click', function(){
   var password = document.getElementById("passwordLanding").value;
   var username = document.getElementById("usernameLanding").value;
   var errorField = document.getElementById("errorMessage");
@@ -14,5 +14,5 @@ function CheckUser(){
     else {
       errorField.style.display = "block";
     }
-}
+});
 

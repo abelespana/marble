@@ -18,7 +18,7 @@ var formulario4 = document.forms[0];*/
 window.onload = iniciar; //SIN PARËNTESIS
 
 function iniciar(){
-	document.getElementById("botonsito").addEventListener('click',validar,false); //Con esta funcion lo que hacemos 
+	document.getElementById("inputRegisterForm").addEventListener('click',validar,false); //Con esta funcion lo que hacemos 
 }
 
 function validaNombre(){
