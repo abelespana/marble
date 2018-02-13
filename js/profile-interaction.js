@@ -1,4 +1,5 @@
 //Función para rellenar el campo del usuario con datos del JSON
+// De la línea 3 a la 44, ya no está en uso
 function ShowUserInfo(username) {
   var name = document.getElementById("myName");
   var myNickname = document.getElementById("myNickname");
@@ -62,7 +63,6 @@ function ShowComented() {
   document.getElementById("profileUserVisited").style.display="none";
   document.getElementById("profileUserComented").style.display="block";
 }
-// Cosa a mejorar: se pueden hacer estos cambios con una sola función con condicionales para no repetir tanto código
 
 function logout(){
   //Limpiar campos de informacion(datos).
