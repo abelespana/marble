@@ -47,8 +47,13 @@ document.getElementById('inputRegisterForm').addEventListener('click', function(
 	if (usuarios[0].password == "1234" || usuarios[1].password == "1234") {
 		document.getElementById("fichaUsuarioRegistrado").style.display = "block";
 		document.getElementById("teHaremosOpaco").style.opacity=0;
+		document.getElementById("usuarioModal").innerHTML = "Nombre de usuario: " + usuarios[0].username;
+
 		//Resto del código de pintar en la modal
 	} // Fin del IF
+	else {
+		// alert("error gordo");
+	}
 }); // Fin del envío del form
 
 
@@ -61,7 +66,7 @@ document.getElementById('inputRegisterForm').addEventListener('click', function(
 
 
 function salirDeLaModal() {
-	window.location.href="home-logueado.html";
+	window.location.href="index.html";
 }
 
 
