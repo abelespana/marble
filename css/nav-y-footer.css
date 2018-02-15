@@ -16,7 +16,7 @@ nav#cabecera {
 }
 
 #footer {
-  position:fixed;
+/*  position:fixed;*/
   width:100%;
   bottom:-10px;
   background-color:rgb(0,128,182);

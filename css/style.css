@@ -289,7 +289,7 @@ footer{
   /* margin-bottom: 10px; */
   width: 100%;
   color: #0080b6;
-  position: absolute;
+  position: fixed;
   left: 0px;
   bottom: 0px;
   background-color:#ff844dbf;
@@ -460,6 +460,10 @@ div.theme > img{
 div.flechas > a{
     text-decoration: none;
     text-align: center;
+}
+
+#espaciado{
+  margin-bottom: 35px;
 }
 
 .imgRedonda {
