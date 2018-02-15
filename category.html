@@ -6,9 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="css/simplePagination.css"/>
     <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/mas-css.css" type="text/css" />
     
 </head>
 <body>
+
+    <!-- Ventana de no registrado fuera del wrapper-->
+        <div class="youre-not-registered">
+            <p> Recuerda, solo si te registras podrás acceder a todos los contenidos y aprovechar Marble al máximo.
+                <a href="register.html">Ir al registro</a>
+            </p>
+        </div>
    
 <div class="wrapper">
 
@@ -37,9 +45,10 @@
      <!-- información puntuada -->
        <div class="info">
           <div class="flechas">
-             <a href=""><div class="icon2-arrow-up stats"></div><span class="text-stats">233</span></a>
-             <a href=""><div class="icon2-bubble stats"></div><span class="text-stats">233</span></a>
-             <a href=""><div class="icon2-eye stats"></div><span class="text-stats">233</span></a>
+             <a href=""><div class="icon2-arrow-up stats" onclick=votarUno();></div>
+            <span id="numeroincrementado" class="text-stats">0</span></a>
+             <a href=""><div class="icon2-bubble stats"></div><span class="text-stats">2</span></a>
+             <a href=""><div class="icon2-eye stats"></div><span class="text-stats">24</span></a>
            </div>
        </div>
    </div>
@@ -97,9 +106,9 @@
      <!-- información puntuada -->
        <div class="info">
           <div class="flechas">
-               <a href=""><div class="icon2-arrow-up stats"></div><span class="text-stats">233</span></a>
-               <a href=""><div class="icon2-bubble stats"></div><span class="text-stats">233</span></a>
-               <a href=""><div class="icon2-eye stats"></div><span class="text-stats">233</span></a>
+               <a href=""><div class="icon2-arrow-up stats"></div><span class="text-stats">0</span></a>
+               <a href=""><div class="icon2-bubble stats"></div><span class="text-stats">3</span></a>
+               <a href=""><div class="icon2-eye stats"></div><span class="text-stats">34</span></a>
            </div>
        </div>
    </div>
@@ -151,6 +160,7 @@
 
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="js/jquery.simplePagination.js"></script>
-<script type="text/javascript" src="js/scriptsMenu.js"></script>  
+<script type="text/javascript" src="js/votacion.js"></script>
+<!-- <script type="text/javascript" src="js/scriptsMenu.js"></script>   -->
 </body>
 </html>
