@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/mas-css.css">
 </head>
       
 <body>
@@ -19,7 +20,7 @@
       </header>
                   
       <!--<div class="main">-->
-      <main>
+      <main id="teHaremosOpaco">
           <div class="wrapper" >
 
               <form action="category.html" method="post" id="miFormulario" class="cajitaForm">
@@ -128,7 +129,26 @@
                <div class="wrapper" id="policy">
           </div>
            </div>
-       </main>
+      </main>
+<!-- Ventana modal de confirmacion -->
+
+
+  <div id="fichaUsuarioRegistrado">
+
+    <h3>Registrado con éxito</h3>
+
+    <p>Esta es tu información:</p>
+    <p>Nombre:</p>
+    <p>Contraseña:*****</p>
+    <p>Email:</p>
+    <input type="button" name="" value="Ir al inicio" onclick="salirDeLaModal()">
+
+    
+  </div>
+
+
+
+       
     
 <footer>
     <div class="wrapper">
@@ -142,6 +162,8 @@
     </div> 
 </footer>
 
+
+      <script type="text/javascript" src="js/userRegister.js"></script>
      <script type="text/javascript" src="js/validacion.js"></script>
 </body>    
 </html>

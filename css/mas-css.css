@@ -13,3 +13,17 @@
 #abelSay {
     display:none;
 }
+#fichaUsuarioRegistrado{
+
+    width: 20%;
+    height: 300px;
+    border-radius: 25px;
+    position: absolute;
+    text-align:center;
+    top: 25%;
+    left: 40%;
+    background-color: white;
+    padding: 10px;
+    display: none;
+    background-color:#ff844dbf;
+}
